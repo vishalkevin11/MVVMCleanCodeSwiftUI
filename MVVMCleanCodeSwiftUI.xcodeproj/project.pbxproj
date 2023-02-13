@@ -8,18 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		99C905802998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */; };
-		99C905822998DC4E00022CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905812998DC4E00022CAB /* ContentView.swift */; };
 		99C905842998DC5000022CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C905832998DC5000022CAB /* Assets.xcassets */; };
 		99C905882998DC5000022CAB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C905872998DC5000022CAB /* Preview Assets.xcassets */; };
+		99C9059829991D2200022CAB /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9059729991D2200022CAB /* APIEndpoint.swift */; };
+		99C9059A29991DC600022CAB /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9059929991DC600022CAB /* HttpClient.swift */; };
+		99C9059C2999ED9700022CAB /* NewsAPIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9059B2999ED9700022CAB /* NewsAPIEndpoint.swift */; };
+		99C9059E2999F91F00022CAB /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9059D2999F91F00022CAB /* Users.swift */; };
+		99C905A02999F98200022CAB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9059F2999F98200022CAB /* User.swift */; };
+		99C905A22999FD3A00022CAB /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905A12999FD3A00022CAB /* UserService.swift */; };
+		99C905A4299A0A2B00022CAB /* UserImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905A3299A0A2B00022CAB /* UserImageService.swift */; };
+		99C905A6299A1BA600022CAB /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905A5299A1BA600022CAB /* AppErrors.swift */; };
+		99C905A9299A3CEF00022CAB /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905A8299A3CEF00022CAB /* UsersViewModel.swift */; };
+		99C905AC299A40AF00022CAB /* UsersRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905AB299A40AF00022CAB /* UsersRouter.swift */; };
+		99C905B1299A426700022CAB /* UserDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905B0299A426700022CAB /* UserDetailsView.swift */; };
+		99C905B5299A48C300022CAB /* UsersConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905B4299A48C300022CAB /* UsersConfigurator.swift */; };
+		99C905B7299A491D00022CAB /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905B6299A491D00022CAB /* UsersView.swift */; };
+		99C905B9299A4A3C00022CAB /* UserDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C905B8299A4A3C00022CAB /* UserDetailsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		99C9057C2998DC4E00022CAB /* MVVMCleanCodeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCleanCodeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUIApp.swift; sourceTree = "<group>"; };
-		99C905812998DC4E00022CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99C905832998DC5000022CAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C905852998DC5000022CAB /* MVVMCleanCodeSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MVVMCleanCodeSwiftUI.entitlements; sourceTree = "<group>"; };
 		99C905872998DC5000022CAB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99C9059729991D2200022CAB /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		99C9059929991DC600022CAB /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		99C9059B2999ED9700022CAB /* NewsAPIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPIEndpoint.swift; sourceTree = "<group>"; };
+		99C9059D2999F91F00022CAB /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		99C9059F2999F98200022CAB /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		99C905A12999FD3A00022CAB /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		99C905A3299A0A2B00022CAB /* UserImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserImageService.swift; sourceTree = "<group>"; };
+		99C905A5299A1BA600022CAB /* AppErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppErrors.swift; sourceTree = "<group>"; };
+		99C905A8299A3CEF00022CAB /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		99C905AB299A40AF00022CAB /* UsersRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRouter.swift; sourceTree = "<group>"; };
+		99C905B0299A426700022CAB /* UserDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsView.swift; sourceTree = "<group>"; };
+		99C905B4299A48C300022CAB /* UsersConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersConfigurator.swift; sourceTree = "<group>"; };
+		99C905B6299A491D00022CAB /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		99C905B8299A4A3C00022CAB /* UserDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +79,9 @@
 			isa = PBXGroup;
 			children = (
 				99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */,
-				99C905812998DC4E00022CAB /* ContentView.swift */,
+				99C905902998FC0B00022CAB /* Core */,
+				99C9058F2998FC0300022CAB /* BusinessLogic */,
+				99C9058E2998FBF300022CAB /* Presentation */,
 				99C905832998DC5000022CAB /* Assets.xcassets */,
 				99C905852998DC5000022CAB /* MVVMCleanCodeSwiftUI.entitlements */,
 				99C905862998DC5000022CAB /* Preview Content */,
@@ -67,6 +95,145 @@
 				99C905872998DC5000022CAB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99C9058E2998FBF300022CAB /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				99C905932998FC3000022CAB /* UserDetails */,
+				99C905922998FC2600022CAB /* Users */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		99C9058F2998FC0300022CAB /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+				99C905962998FC5400022CAB /* Endpoints */,
+				99C905952998FC4C00022CAB /* Models */,
+				99C905942998FC4600022CAB /* Services */,
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		99C905902998FC0B00022CAB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				99C905912998FC1B00022CAB /* Network */,
+				99C905A5299A1BA600022CAB /* AppErrors.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		99C905912998FC1B00022CAB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				99C9059929991DC600022CAB /* HttpClient.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		99C905922998FC2600022CAB /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B3299A42E000022CAB /* Configurator */,
+				99C905AA299A3FEC00022CAB /* Router */,
+				99C905AE299A422900022CAB /* View */,
+				99C905A7299A3CE000022CAB /* ViewModel */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		99C905932998FC3000022CAB /* UserDetails */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B2299A42C100022CAB /* Configurator */,
+				99C905AF299A423000022CAB /* ViewModel */,
+				99C905AD299A421E00022CAB /* View */,
+			);
+			path = UserDetails;
+			sourceTree = "<group>";
+		};
+		99C905942998FC4600022CAB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				99C905A12999FD3A00022CAB /* UserService.swift */,
+				99C905A3299A0A2B00022CAB /* UserImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		99C905952998FC4C00022CAB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				99C9059D2999F91F00022CAB /* Users.swift */,
+				99C9059F2999F98200022CAB /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		99C905962998FC5400022CAB /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				99C9059729991D2200022CAB /* APIEndpoint.swift */,
+				99C9059B2999ED9700022CAB /* NewsAPIEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		99C905A7299A3CE000022CAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99C905A8299A3CEF00022CAB /* UsersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99C905AA299A3FEC00022CAB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				99C905AB299A40AF00022CAB /* UsersRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		99C905AD299A421E00022CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B0299A426700022CAB /* UserDetailsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C905AE299A422900022CAB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B6299A491D00022CAB /* UsersView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		99C905AF299A423000022CAB /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B8299A4A3C00022CAB /* UserDetailsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		99C905B2299A42C100022CAB /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		99C905B3299A42E000022CAB /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				99C905B4299A48C300022CAB /* UsersConfigurator.swift */,
+			);
+			path = Configurator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +306,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99C905822998DC4E00022CAB /* ContentView.swift in Sources */,
+				99C905A22999FD3A00022CAB /* UserService.swift in Sources */,
+				99C905AC299A40AF00022CAB /* UsersRouter.swift in Sources */,
+				99C9059C2999ED9700022CAB /* NewsAPIEndpoint.swift in Sources */,
+				99C9059A29991DC600022CAB /* HttpClient.swift in Sources */,
+				99C905B1299A426700022CAB /* UserDetailsView.swift in Sources */,
+				99C905B7299A491D00022CAB /* UsersView.swift in Sources */,
+				99C905A6299A1BA600022CAB /* AppErrors.swift in Sources */,
+				99C905A02999F98200022CAB /* User.swift in Sources */,
+				99C905A4299A0A2B00022CAB /* UserImageService.swift in Sources */,
+				99C9059E2999F91F00022CAB /* Users.swift in Sources */,
+				99C905B5299A48C300022CAB /* UsersConfigurator.swift in Sources */,
+				99C905B9299A4A3C00022CAB /* UserDetailsViewModel.swift in Sources */,
 				99C905802998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift in Sources */,
+				99C9059829991D2200022CAB /* APIEndpoint.swift in Sources */,
+				99C905A9299A3CEF00022CAB /* UsersViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +460,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,7 +496,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
