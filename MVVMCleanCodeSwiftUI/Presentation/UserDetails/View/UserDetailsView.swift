@@ -10,20 +10,31 @@ import SwiftUI
 
 struct UserDetailsView: View {
     
-    @ObservedObject var viewModel: UsersViewModel
+    @ObservedObject var viewModel: UserDetailsViewModel
+     @State private var showBottomSheet: Bool = false
     var body: some View {
-       // NavigationStack(path: SwiftUI.Binding<SwiftUI.NavigationPath>, root: <#T##() -> Root#>)
         
-        NavigationView {
-            List(viewModel.users.data) { user in
-                NavigationLink {
-                    UsersRouter.showUserDetailsView(user: user)
-                } label: {
-                    Text("\(user.title)")
-                }
-
+        VStack {
+            
+            Image(uiImage: viewModel.avatar)
+                .resizable()
+                .aspectRatio(contentMode: .fill)
+                .frame(width: 100, height: 100)
+                .clipShape(Circle())
+            
+            Text("\(viewModel.user.firstName ?? "")")
+            
+            Button("More Info") {
+                showBottomSheet = true
             }
         }
+        .onAppear {
+            viewModel.onAppear()
+        }
+        .sheet(isPresented: $showBottomSheet) {
+            MoreInfoConfigurator.getMoreInfoView(with: viewModel.user)
+        }
+
     }
 }
 

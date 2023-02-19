@@ -8,18 +8,25 @@
 import Foundation
 
 enum AppError: Error {
-case networkError
-case dataInvalid
+    case network
+    case decode
+    case invalidURL
+    case noResponse
+    case unauthorized
+    case unexpectedStatusCode
+    case unknown
 }
 
 extension AppError: LocalizedError {
     
     var errorDescription: String? {
         switch self {
-        case .dataInvalid:
+        case .decode:
             return "Inavld Data"
-        case .networkError:
+        case .network:
             return "Unable to reach network"
+        default:
+            return "Unknown error"
         }
     }
 }

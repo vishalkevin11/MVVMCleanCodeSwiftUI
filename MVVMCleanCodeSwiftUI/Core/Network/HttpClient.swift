@@ -9,7 +9,7 @@ import Combine
 import Foundation
 
 protocol HttpClientProtocol: AnyObject {
-    typealias Headers = [String: Any]
+    typealias Headers = [String: Any]?
     func getData(url: URL,  headers: Headers) -> AnyPublisher<Data, URLError>
     func get<T>(type: T.Type,url: URL,  headers: Headers) -> AnyPublisher<T, Error> where T: Decodable
 }
@@ -18,9 +18,11 @@ protocol HttpClientProtocol: AnyObject {
 final class HttpClient : HttpClientProtocol {
     func getData(url: URL, headers: Headers) -> AnyPublisher<Data, URLError> {
         var urlRequest = URLRequest(url: url)
-        headers.forEach { (key: String, value: Any) in
-            if let value = value as? String {
-                urlRequest.setValue(value, forHTTPHeaderField: key)
+        if let headers = headers {
+            headers.forEach { (key: String, value: Any) in
+                if let value = value as? String {
+                    urlRequest.setValue(value, forHTTPHeaderField: key)
+                }
             }
         }
         return URLSession.shared.dataTaskPublisher(for: urlRequest)
@@ -30,9 +32,11 @@ final class HttpClient : HttpClientProtocol {
     
     func get<T>(type: T.Type, url: URL, headers: Headers) -> AnyPublisher<T, Error> where T : Decodable {
         var urlRequest = URLRequest(url: url)
-        headers.forEach { (key: String, value: Any) in
-            if let value = value as? String {
-                urlRequest.setValue(value, forHTTPHeaderField: key)
+        if let headers = headers {
+            headers.forEach { (key: String, value: Any) in
+                if let value = value as? String {
+                    urlRequest.setValue(value, forHTTPHeaderField: key)
+                }
             }
         }
         return URLSession.shared.dataTaskPublisher(for: urlRequest)

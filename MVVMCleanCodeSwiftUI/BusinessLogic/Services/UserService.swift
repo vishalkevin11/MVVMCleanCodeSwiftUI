@@ -24,17 +24,17 @@ final class UserService: UserServiceProtocol {
     }
     
     func getUsers() -> AnyPublisher<Users, Error> {
-        let endpoint = APIEndpoint.users
+        let endpoint = NewsAPIEndpoint.getAllUsers
         return httpProtocol.get(type: Users.self, url: endpoint.url, headers: endpoint.headers)
     }
     
     func getUsers(limit: Int, pageIndex: Int) -> AnyPublisher<Users, Error> {
-        let endpoint = APIEndpoint.users(limit: limit, pageIndex: pageIndex)
+        let endpoint = NewsAPIEndpoint.getUsers(limit: limit, pageIndex: pageIndex)
         return httpProtocol.get(type: Users.self, url: endpoint.url, headers: endpoint.headers)
     }
     
     func getUserDetails(userId: String) -> AnyPublisher<User, Error> {
-        let endpoint = APIEndpoint.userDetails(userId: userId)
+        let endpoint = NewsAPIEndpoint.getuserDetails(userId: userId)
         return httpProtocol.get(type: User.self, url: endpoint.url, headers: endpoint.headers)
     }
     

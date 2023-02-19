@@ -11,11 +11,15 @@ struct UsersView: View {
     @ObservedObject var viewModel: UsersViewModel
     var body: some View {
         NavigationView {
-            List(viewModel.users.data) { user in
+            List(viewModel.users.data, id: \.id) { user in
                 NavigationLink {
                     UsersRouter.showUserDetailsView(user: user)
                 } label: {
-                    Text("\(user.title)")
+                    HStack {
+                        Text("\(user.firstName ?? "-")")
+                        Text("\(user.lastName ?? "-")")
+                    }
+                    
                 }
             }
         }

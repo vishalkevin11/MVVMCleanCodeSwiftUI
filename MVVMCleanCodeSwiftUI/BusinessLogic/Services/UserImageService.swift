@@ -26,11 +26,11 @@ final class UserImageService: UserImageServiceProtocol {
     
     func getUserProfileImage(url urlString: String) -> AnyPublisher<Data, Error> {
         guard let url = URL(string: urlString) else {
-            return Fail<Data, Error>(error: AppError.networkError).eraseToAnyPublisher()
+            return Fail<Data, Error>(error: AppError.network).eraseToAnyPublisher()
         }
         
         return httpClientProtocol.getData(url: url, headers: [:])
-            .mapError { _ in AppError.dataInvalid }
+            .mapError { _ in AppError.decode }
             .eraseToAnyPublisher()
     }
     

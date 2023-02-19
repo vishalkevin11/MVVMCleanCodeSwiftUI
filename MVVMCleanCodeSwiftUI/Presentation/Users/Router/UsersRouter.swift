@@ -9,8 +9,7 @@ import Foundation
 import SwiftUI
 
 final class UsersRouter {
-    
     public static func showUserDetailsView(user: User) -> some View {
-        return Text("")
+        return UserDetailsConfiguarator.configureUserDetailView(with: user)
     }
 }
