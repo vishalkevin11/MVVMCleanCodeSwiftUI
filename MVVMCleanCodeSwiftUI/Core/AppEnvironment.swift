@@ -23,9 +23,12 @@ class BuildConfiguration {
     
     var environment: AppEnvironment
     
-    init() {
+    private init() {
         let currentConfiguration = Bundle.main.object(forInfoDictionaryKey: "Configuration") as! String
         
         environment = AppEnvironment(rawValue: currentConfiguration)!
+        
+        print("Current configuration: \(environment.rawValue)")
+
     }
 }

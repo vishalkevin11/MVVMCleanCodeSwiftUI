@@ -36,6 +36,12 @@ extension BaseAPIEndpoint {
     }
     
     // host or base url
+    // You place all these values in Plist too
+    
+    //    Development.plist
+    //    Staging.plist
+    //    Production.plist
+    
     var host: String {
         switch BuildConfiguration.shared.environment {
         case .debugDevelopment, .releaseDevelopment:

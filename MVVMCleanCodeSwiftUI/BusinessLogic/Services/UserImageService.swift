@@ -19,7 +19,6 @@ protocol UserImageServiceProtocol: AnyObject {
 final class UserImageService: UserImageServiceProtocol {
     var httpClientProtocol: HttpClientProtocol
     
-    
     init(httpClientProtocol: HttpClientProtocol = HttpClient()) {
         self.httpClientProtocol = httpClientProtocol
     }
