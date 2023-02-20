@@ -87,12 +87,9 @@ desc "Does a static analysis of the project. Configure the options in .swiftlint
 lane :lint do
   puts "Linting..."
   swiftlint(
-    mode: :lint,
-    executable: "/Pods/SwiftLint/swiftlintt",
-    output_file: "swiftlint.result.json",
-    reporter: "checkstyle",
-    config_file: ".swiftlint.yml",
-    ignore_exit_status: true
+ 	mode: :lint,      
+ 	output_file: "swiftlint.result.json", 
+  	executable: "./Pods/SwiftLint/swiftlint"
   )
 end
 
