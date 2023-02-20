@@ -14,6 +14,7 @@
 		2D916B40299F87E600935C57 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D916B3F299F87E600935C57 /* HttpMethod.swift */; };
 		2D916B42299F959200935C57 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D916B41299F959200935C57 /* AppEnvironment.swift */; };
 		2DD10D0929A3464900F32CF9 /* MVVMCleanCodeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD10D0829A3464900F32CF9 /* MVVMCleanCodeSwiftUITests.swift */; };
+		2DD10D1529A3724B00F32CF9 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2DD10D1429A3724B00F32CF9 /* .swiftlint.yml */; };
 		2DD9D9BA299E82960056705E /* MoreInfoConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD9D9B9299E82960056705E /* MoreInfoConfigurator.swift */; };
 		99C905802998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */; };
 		99C905842998DC5000022CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C905832998DC5000022CAB /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		2D916B4B29A22F7100935C57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2DD10D0629A3464800F32CF9 /* MVVMCleanCodeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCleanCodeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD10D0829A3464900F32CF9 /* MVVMCleanCodeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUITests.swift; sourceTree = "<group>"; };
+		2DD10D1429A3724B00F32CF9 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
 		2DD9D9B9299E82960056705E /* MoreInfoConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoConfigurator.swift; sourceTree = "<group>"; };
 		99C9057C2998DC4E00022CAB /* MVVMCleanCodeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMCleanCodeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				2D916B4B29A22F7100935C57 /* Info.plist */,
+				2DD10D1429A3724B00F32CF9 /* .swiftlint.yml */,
 				99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */,
 				99C905902998FC0B00022CAB /* Core */,
 				99C9058F2998FC0300022CAB /* BusinessLogic */,
@@ -339,6 +342,7 @@
 				2DD10D0229A3464800F32CF9 /* Sources */,
 				2DD10D0329A3464800F32CF9 /* Frameworks */,
 				2DD10D0429A3464800F32CF9 /* Resources */,
+				2DD10D1329A370D800F32CF9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -417,12 +421,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD10D1529A3724B00F32CF9 /* .swiftlint.yml in Resources */,
 				99C905882998DC5000022CAB /* Preview Assets.xcassets in Resources */,
 				99C905842998DC5000022CAB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2DD10D1329A370D800F32CF9 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelseecho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2DD10D0229A3464800F32CF9 /* Sources */ = {
