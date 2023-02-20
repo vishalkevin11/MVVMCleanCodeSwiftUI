@@ -158,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				99C9057E2998DC4E00022CAB /* MVVMCleanCodeSwiftUI */,
+				2DD10D1429A3724B00F32CF9 /* .swiftlint.yml */,
 				2DD10D0729A3464800F32CF9 /* MVVMCleanCodeSwiftUITests */,
 				99C9057D2998DC4E00022CAB /* Products */,
 			);
@@ -176,7 +177,6 @@
 			isa = PBXGroup;
 			children = (
 				2D916B4B29A22F7100935C57 /* Info.plist */,
-				2DD10D1429A3724B00F32CF9 /* .swiftlint.yml */,
 				99C9057F2998DC4E00022CAB /* MVVMCleanCodeSwiftUIApp.swift */,
 				99C905902998FC0B00022CAB /* Core */,
 				99C9058F2998FC0300022CAB /* BusinessLogic */,
