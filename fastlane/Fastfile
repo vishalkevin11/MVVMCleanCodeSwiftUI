@@ -42,13 +42,13 @@ test_scheme = "MVVMCleanCodeSwiftUI"
 
 # Upload/Distribution
 distribution = "testflight"
-groups = "UAT Test Team"
+groups = "News_App_UAT_Testers"
 
 # For firebase/testfairy/appcenter etc
 api_key = "DISTRIBUTION_API_TOKEN"
 
 # Push changes
-remote_branch = "SK/feature/CICD_Integration"
+remote_branch = "feature/CICD_Integration"
 release_notes = "MVVMCleanCodeSwiftUI v1.0.0 Release\nTest build from automated CI-CD"
 
 # Publish build
@@ -93,6 +93,47 @@ lane :lint do
     config_file: ".swiftlint.yml",
     ignore_exit_status: true
   )
+end
+
+desc "This lane will publish build information to respective channels "
+  lane :publish do |options|
+# Push the commit to remote branch
+    current_time = Time.new.strftime('%Y.%m.%d_%H.%M')
+# Facts for the build that need to be published on Teams channel
+        build_details = [
+          {
+            "name"=>"Build Name",
+            "value"=>options[:build_name]
+          },
+          {
+            "name"=>"Version Number",
+            "value"=>options[:version_num]
+          },
+          {
+            "name"=>"Published Date / Time",
+            "value"=>current_time
+          }
+        ]
+      puts "CHANNEL : #{channel}"
+case channel
+    when 'teams' 
+    puts "Notifying in Teams.."
+    # Publish build available notification on iOS Team channel
+    teams(title: "New Build Available",
+   message: app_name + " App successfully released!! Please download it on device to start testing.",
+          facts: build_details,
+          teams_url: webhook_url)
+when 'slack'
+    puts "Notifying in Slack.."
+    slack(message: app_name + " App successfully released!! Please download it on device to start testing.",
+            slack_url: webhook_url,
+            fields: build_details)
+    else
+    # No channel opted for notifing build release
+    puts "No channel specified"
+   end
+  end
+  
 end
 
 desc "This lane initiates the build process. Takes argument(options) as app_build_name"
@@ -202,47 +243,6 @@ else
         puts "No distribution opted to upload app"
 end
 
-
-desc "This lane will publish build information to respective channels "
-  lane :publish do |options|
-# Push the commit to remote branch
-    current_time = Time.new.strftime('%Y.%m.%d_%H.%M')
-# Facts for the build that need to be published on Teams channel
-        build_details = [
-          {
-            "name"=>"Build Name",
-            "value"=>options[:build_name]
-          },
-          {
-            "name"=>"Version Number",
-            "value"=>options[:version_num]
-          },
-          {
-            "name"=>"Published Date / Time",
-            "value"=>current_time
-          }
-        ]
-      puts "CHANNEL : #{channel}"
-case channel
-    when 'teams' 
-    puts "Notifying in Teams.."
-    # Publish build available notification on iOS Team channel
-    teams(title: "New Build Available",
-   message: app_name + " App successfully released!! Please download it on device to start testing.",
-          facts: build_details,
-          teams_url: webhook_url)
-when 'slack'
-    puts "Notifying in Slack.."
-    slack(message: app_name + " App successfully released!! Please download it on device to start testing.",
-            slack_url: webhook_url,
-            fields: build_details)
-    else
-    # No channel opted for notifing build release
-    puts "No channel specified"
-   end
-  end
-  
-end
 
 desc "This lane will commit version bump and push changes to remote "
   lane :push_to_remote do
