@@ -4,11 +4,4 @@
    <FileRef
       location = "group:MVVMCleanCodeSwiftUI.xcodeproj">
    </FileRef>
-   <Group
-      location = "group:MVVMCleanCodeSwiftUITests"
-      name = "MVVMCleanCodeSwiftUITests">
-      <FileRef
-         location = "group:MVVMCleanCodeSwiftUITests.swift">
-      </FileRef>
-   </Group>
 </Workspace>

@@ -14,16 +14,13 @@ struct UserDetailsView: View {
      @State private var showBottomSheet: Bool = false
     var body: some View {
         
-        VStack {
-            
+      VStack {
             Image(uiImage: viewModel.avatar)
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 100, height: 100)
                 .clipShape(Circle())
-            
             Text("\(viewModel.user.firstName ?? "")")
-            
             Button("More Info") {
                 showBottomSheet = true
             }
