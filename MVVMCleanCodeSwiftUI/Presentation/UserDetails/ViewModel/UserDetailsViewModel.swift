@@ -8,6 +8,7 @@
 import Combine
 import SwiftUI
 import Foundation
+import UIKit
 
 class UserDetailsViewModel: ObservableObject {
     @Published public var avatar: UIImage = UIImage()
