@@ -21,6 +21,7 @@ skip_docs
 app_name = "MVVMCleanCodeSwiftUI"
 scheme = "MVVMCleanCodeSwiftUI"
 project = "MVVMCleanCodeSwiftUI.xcodeproj"
+workspace = ""
 target = "MVVMCleanCodeSwiftUI"
 bundle_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
 
