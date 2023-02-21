@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 final class MoreInfoConfigurator {
     
     static func getMoreInfoView(with user: User) -> MoreInfoView {

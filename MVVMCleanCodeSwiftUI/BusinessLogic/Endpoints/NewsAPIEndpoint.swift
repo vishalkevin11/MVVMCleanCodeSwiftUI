@@ -7,13 +7,13 @@
 
 import Foundation
 
-//struct NewsAPIEndpoint: APIEndpoint {
-//struct APIEndpoint {
+// struct NewsAPIEndpoint: APIEndpoint {
+// struct APIEndpoint {
 //   fileprivate var path: String
 //    fileprivate var queryParameters: [URLQueryItem] = []
-//}
+// }
 
-//extension BaseAPIEndpoint {
+// extension BaseAPIEndpoint {
 //
 //    var url: URL {
 //        var components = URLComponents()
@@ -33,31 +33,22 @@ import Foundation
 //            "app-id": "63e680fbd40ebb998caea60f"
 //        ]
 //    }
-//}
-
-
+// }
 
 enum NewsAPIEndpoint: BaseAPIEndpoint {
-    
-    
-    
     case getAllUsers
-    case getUsers(limit: Int, pageIndex:Int)
+    case getUsers(limit: Int, pageIndex: Int)
     case getuserDetails(userId: String)
-    
-  
-
     
     var path: String {
         switch self {
-        case .getAllUsers, .getUsers(_, _):
+        case .getAllUsers, .getUsers:
             return "/user"
         case .getuserDetails(let userId):
             return "/user/\(userId)"
         }
     }
-    
-    
+
     var queryParameters: [URLQueryItem]? {
         switch self {
         case .getUsers(let limit, let pageIndex):

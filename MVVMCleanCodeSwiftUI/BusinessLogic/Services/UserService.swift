@@ -38,5 +38,4 @@ final class UserService: UserServiceProtocol {
         return httpProtocol.get(type: User.self, url: endpoint.url, headers: endpoint.headers)
     }
     
-    
 }

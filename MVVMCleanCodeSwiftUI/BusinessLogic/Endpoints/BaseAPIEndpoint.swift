@@ -26,11 +26,10 @@ extension BaseAPIEndpoint {
         return .get
     }
     
-    var body: [String : Any]? {
+    var body: [String: Any]? {
         return nil
     }
-    
-    
+
     var scheme: String {
         return "https"
     }
@@ -66,20 +65,19 @@ extension BaseAPIEndpoint {
         return url
     }
     
-    var headers:[String : Any]? {
+    var headers: [String: Any]? {
         return [
             "app-id": "63e680fbd40ebb998caea60f"
         ]
     }
 }
 
-//struct APIEndpoint {
+// struct APIEndpoint {
 //    var path: String
 //    var queryParameters: [URLQueryItem] = []
-//}
+// }
 //
-//protocol APIEndpoint {
+// protocol APIEndpoint {
 //    var path: String { get set }
 //    var queryParameters: [URLQueryItem] = [] { get set }
-//}
-
+// }

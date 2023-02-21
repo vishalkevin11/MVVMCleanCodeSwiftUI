@@ -10,6 +10,6 @@ import Foundation
 struct Users: Decodable {
     var data: [User]
     private enum CodingKeys: String, CodingKey {
-        case data = "data"
+        case data
     }
 }

@@ -10,12 +10,11 @@ import Foundation
 
 protocol HttpClientProtocol: AnyObject {
     typealias Headers = [String: Any]?
-    func getData(url: URL,  headers: Headers) -> AnyPublisher<Data, URLError>
-    func get<T>(type: T.Type,url: URL,  headers: Headers) -> AnyPublisher<T, Error> where T: Decodable
+    func getData(url: URL, headers: Headers) -> AnyPublisher<Data, URLError>
+    func get<T>(type: T.Type, url: URL, headers: Headers) -> AnyPublisher<T, Error> where T: Decodable
 }
 
-
-final class HttpClient : HttpClientProtocol {
+final class HttpClient: HttpClientProtocol {
     func getData(url: URL, headers: Headers) -> AnyPublisher<Data, URLError> {
         var urlRequest = URLRequest(url: url)
         if let headers = headers {
@@ -26,11 +25,11 @@ final class HttpClient : HttpClientProtocol {
             }
         }
         return URLSession.shared.dataTaskPublisher(for: urlRequest)
-            .map{$0.data}
+            .map { $0.data }
             .eraseToAnyPublisher()
     }
     
-    func get<T>(type: T.Type, url: URL, headers: Headers) -> AnyPublisher<T, Error> where T : Decodable {
+    func get<T>(type: T.Type, url: URL, headers: Headers) -> AnyPublisher<T, Error> where T: Decodable {
         var urlRequest = URLRequest(url: url)
         if let headers = headers {
             headers.forEach { (key: String, value: Any) in
@@ -44,6 +43,5 @@ final class HttpClient : HttpClientProtocol {
             .decode(type: T.self, decoder: JSONDecoder())
             .eraseToAnyPublisher()
     }
-    
     
 }

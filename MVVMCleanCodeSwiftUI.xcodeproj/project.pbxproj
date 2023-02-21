@@ -342,7 +342,6 @@
 				2DD10D0229A3464800F32CF9 /* Sources */,
 				2DD10D0329A3464800F32CF9 /* Frameworks */,
 				2DD10D0429A3464800F32CF9 /* Resources */,
-				2DD10D1329A370D800F32CF9 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -361,6 +360,7 @@
 				99C905782998DC4E00022CAB /* Sources */,
 				99C905792998DC4E00022CAB /* Frameworks */,
 				99C9057A2998DC4E00022CAB /* Resources */,
+				2D333E5429A3CD630027EC75 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -430,7 +430,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2DD10D1329A370D800F32CF9 /* ShellScript */ = {
+		2D333E5429A3CD630027EC75 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,7 +445,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftlint >/dev/null; then\nswiftlint\nelseecho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 

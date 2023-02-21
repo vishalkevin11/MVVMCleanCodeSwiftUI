@@ -38,8 +38,8 @@ struct UserDetailsView: View {
     }
 }
 
-//struct UserDetailsView_Previews: PreviewProvider {
+// struct UserDetailsView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        UserDetailsView()
 //    }
-//}
+// }

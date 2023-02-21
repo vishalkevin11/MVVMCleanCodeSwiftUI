@@ -21,8 +21,8 @@ struct MoreInfoView: View {
     }
 }
 
-//struct MoreInfoView_Previews: PreviewProvider {
+// struct MoreInfoView_Previews: PreviewProvider {
 //    static var previews: some View {
 //        MoreInfoView()
 //    }
-//}
+// }

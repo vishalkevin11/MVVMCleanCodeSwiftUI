@@ -8,13 +8,10 @@
 import Combine
 import Foundation
 
-
 protocol UserImageServiceProtocol: AnyObject {
-    var httpClientProtocol : HttpClientProtocol { get }
-    
+    var httpClientProtocol: HttpClientProtocol { get }
     func getUserProfileImage(url urlString: String) -> AnyPublisher<Data, Error>
 }
-
 
 final class UserImageService: UserImageServiceProtocol {
     var httpClientProtocol: HttpClientProtocol
@@ -32,6 +29,5 @@ final class UserImageService: UserImageServiceProtocol {
             .mapError { _ in AppError.decode }
             .eraseToAnyPublisher()
     }
-    
-    
+
 }

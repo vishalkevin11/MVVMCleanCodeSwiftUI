@@ -41,5 +41,4 @@ class UserDetailsViewModel: ObservableObject {
             .store(in: &cancellables)
     }
     
-    
 }
