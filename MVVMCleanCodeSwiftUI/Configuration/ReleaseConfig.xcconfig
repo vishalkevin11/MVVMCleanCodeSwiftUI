@@ -1,0 +1,16 @@
+//
+//  ReleaseConfig.xcconfig
+//  MVVMCleanCodeSwiftUI
+//
+//  Created by Kevin.Saldanha on 06/03/23.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+#include "Pods/Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.release.xcconfig"
+#include "BaseConfig.xcconfig"
+
+FAKE_STORE_API_KEY = 63e680fbd40ebb998caea60f
+APP_NAME = ProductionApp
+APP_ICON_NAME = AppIconProduction
+PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.newsuncle

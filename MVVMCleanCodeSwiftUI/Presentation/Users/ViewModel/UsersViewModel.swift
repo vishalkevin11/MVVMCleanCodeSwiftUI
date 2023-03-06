@@ -15,6 +15,7 @@ class UsersViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
     
     init(users: Users = Users(data: []), userService: UserServiceProtocol = UserService()) {
+        print(AppConfiguration.shared.environment)
         self.users = users
         self.userService = userService
     }

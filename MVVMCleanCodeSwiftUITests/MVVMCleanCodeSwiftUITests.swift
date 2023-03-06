@@ -2,10 +2,11 @@
 //  MVVMCleanCodeSwiftUITests.swift
 //  MVVMCleanCodeSwiftUITests
 //
-//  Created by Kevin.Saldanha on 20/02/23.
+//  Created by Kevin.Saldanha on 05/03/23.
 //
 
 import XCTest
+@testable import MVVMCleanCodeSwiftUI
 
 final class MVVMCleanCodeSwiftUITests: XCTestCase {
 
@@ -23,12 +24,11 @@ final class MVVMCleanCodeSwiftUITests: XCTestCase {
         // Any test you write for XCTest can be annotated as throws and async.
         // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
-    //    XCTAssertEqual(1, 1)
     }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
-        measure {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

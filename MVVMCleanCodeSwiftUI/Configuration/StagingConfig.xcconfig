@@ -1,0 +1,15 @@
+//
+//  StagingConfig.xcconfig
+//  MVVMCleanCodeSwiftUI
+//
+//  Created by Kevin.Saldanha on 01/03/23.
+//
+
+//#include "Pods/Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig"
+#include "Pods/Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.staging.xcconfig"
+#include "BaseConfig.xcconfig"
+
+FAKE_STORE_API_KEY = 63e680fbd40ebb998caea60f
+APP_NAME = StagingApp
+APP_ICON_NAME = AppIconStaging
+PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.stageapp

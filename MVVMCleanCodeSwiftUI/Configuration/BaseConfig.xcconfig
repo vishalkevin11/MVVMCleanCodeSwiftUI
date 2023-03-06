@@ -1,0 +1,15 @@
+//
+//  BaseConfig.xcconfig
+//  MVVMCleanCodeSwiftUI
+//
+//  Created by Kevin.Saldanha on 01/03/23.
+//
+
+SLASH=/
+API_BASE_HOST = dummyapi.io
+API_BASE_PATH = $(SLASH)data/v1
+
+
+//BACKEND_URL = https:/$()/my.test.api/v1
+//APP_NAME = Development
+//$() denotes an empty variable sub

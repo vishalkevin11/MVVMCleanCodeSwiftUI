@@ -35,29 +35,30 @@ extension BaseAPIEndpoint {
     }
     
     // host or base url
-    // You place all these values in Plist too
-    
-    //    Development.plist
-    //    Staging.plist
-    //    Production.plist
-    
-    var host: String {
-        switch BuildConfiguration.shared.environment {
-        case .debugDevelopment, .releaseDevelopment:
-            return "dummyapi.io"
-        case .debugStaging, .releaseStaging:
-            return "dummyapi.io"
-        case .debugProduction, .releaseProduction:
-            return "dummyapi.io"
-        }
+    var host: String? {
+        //        switch BuildConfiguration.shared.environment {
+        //        case .debugDevelopment, .releaseDevelopment:
+        //            return "dummyapi.io"
+        //        case .debugStaging, .releaseStaging:
+        //            return "dummyapi.io"
+        //        case .debugProduction, .releaseProduction:
+        //            return "dummyapi.io"
+        //        }
+        AppConstants.apiHost
     }
-    
+
+    var basePath: String {
+        AppConstants.apiPath ?? ""
+    }
+
     var url: URL {
         var components = URLComponents()
         components.scheme = scheme
         components.host = host
-        components.path = "/data/v1" + path
+        components.path = basePath + path
         components.queryItems = queryParameters
+
+        print("Host is \(host)")
         
         guard let url = components.url else {
             preconditionFailure("Invalid Componenets \(components)")
@@ -67,7 +68,7 @@ extension BaseAPIEndpoint {
     
     var headers: [String: Any]? {
         return [
-            "app-id": "63e680fbd40ebb998caea60f"
+            "app-id": AppConstants.fakeStoreApiKey ?? ""
         ]
     }
 }

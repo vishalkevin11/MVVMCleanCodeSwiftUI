@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+// import AppCenter
 
 @main
 struct MVVMCleanCodeSwiftUIApp: App {
+
+    init() {
+
+    }
+
     var body: some Scene {
         WindowGroup {
             UsersConfigurator.configureUsersView()
