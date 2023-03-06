@@ -15,7 +15,7 @@ final class AppConfiguration {
 
     private init() {
         guard let currentConfiguration = Bundle.main.object(forInfoDictionaryKey: "Configuration") as? String else {
-            environment = AppEnvironment(rawValue: "Debug")!
+            environment = AppEnvironment.development
             return
         }
         environment = AppEnvironment(rawValue: currentConfiguration)!

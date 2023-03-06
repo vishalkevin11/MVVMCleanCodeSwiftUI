@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		3FD13F966A4B8E32E8F451BB266A68A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		46153A28708F6E0F6BBC0C8147FF27CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		667AA6B17F23DD7CEFAFE727133B9F89 /* Pods-MVVMCleanCodeSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E65BDE5923AA9BFC3D996BBF5C4928E /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */; };
-		8681BB726BD166BCF817C6354A9419D6 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6CAFA67B329F0D0AAEC344B8DA1E926 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9178E3E8970CD61290518DBCC19737BB /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 621904C41BE91C5EF93999A5394B9ACC /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */; };
+		667AA6B17F23DD7CEFAFE727133B9F89 /* Pods-MVVMCleanCodeSwiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84156BB8C5D3FDE9276BE2B3823812A2 /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */; };
+		8681BB726BD166BCF817C6354A9419D6 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A6E130981FE5C853FA30B12514C03A8 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9178E3E8970CD61290518DBCC19737BB /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B30409F53022C287DD4B3A3E369894 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */; };
 		946EA47144568181CFC9A9D19C83903B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		D58FC64430703DF732E165B6E2EE822B /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64A3DFF36EBBB30AA02CAEE1FACFAADE /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E655550A9A250BB223CF9421C8794A05 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD1EA65D9B1F32685B3B9B4A4029F23F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB2E544428A3748100B8455013457E6C /* Pods-MVVMCleanCodeSwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE3F88FDBDC0C3E6D4F49C7999ADB6A /* Pods-MVVMCleanCodeSwiftUI-dummy.m */; };
+		D58FC64430703DF732E165B6E2EE822B /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FCB91DD07784A2095175EB0B4C9133E0 /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E655550A9A250BB223CF9421C8794A05 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F6ED493E1DA3CBE1795B666ADA97E4 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB2E544428A3748100B8455013457E6C /* Pods-MVVMCleanCodeSwiftUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5D5E8001DA5565A734FE227989F1DE5 /* Pods-MVVMCleanCodeSwiftUI-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,41 +29,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049CFE1613EFCD328EDFEADCED7D9EA2 /* Pods-MVVMCleanCodeSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUITests-Info.plist"; sourceTree = "<group>"; };
-		052B368A7AF7B5491513E741725B728B /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		13A6B441BF65CEC6F0DE25CC9054B160 /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.staging.xcconfig"; sourceTree = "<group>"; };
-		1F46497C6992E0E15CA348C8935EFAA4 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		07AC4385B51132CDD297852E47474643 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.production.xcconfig"; sourceTree = "<group>"; };
+		0E89A1E46A6AA9FAB8B87F1D8624DD06 /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.production.xcconfig"; sourceTree = "<group>"; };
+		1483D8040E51A9789ED4C73C7F85E128 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1CAE4D14A58D65A31517906142B1E344 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig"; sourceTree = "<group>"; };
+		20E5CEC812B821CB89B065B678DDFD6A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2A6E130981FE5C853FA30B12514C03A8 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUI-umbrella.h"; sourceTree = "<group>"; };
 		2DC1EE07B3B5C8A265F54380ACABCD16 /* Pods-MVVMCleanCodeSwiftUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MVVMCleanCodeSwiftUITests"; path = Pods_MVVMCleanCodeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EB7774EA868B3698961F6D8E82257AA /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		2E985B8AD9FFEBD7734B8D2E421DCD44 /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35AF3AE2E9525AD91ACD5FD93D7E938A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests"; path = Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C00BE31E70A489D98BD45AB1F1B55B8 /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
-		58FB2A655F85E75CD9C7B8E40F77F480 /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
-		59245C4260C84561A7C8D4028091D13B /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig"; sourceTree = "<group>"; };
-		5BE5F66885D3879AFBB0144B834ECF1F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		621904C41BE91C5EF93999A5394B9ACC /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m"; sourceTree = "<group>"; };
-		64A3DFF36EBBB30AA02CAEE1FACFAADE /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
-		6C262BA403DDABA75A56A2EB68CDB1D9 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		701E0CE2546A0786FF2DAE72C0183E36 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist"; sourceTree = "<group>"; };
+		35B30409F53022C287DD4B3A3E369894 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m"; sourceTree = "<group>"; };
+		3A8DE6C2E9F9C62CB787BFC93D530CBA /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
+		3DAA27C9929DC212FBC331F08A3C8950 /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		4F5061F1A17C5D925635748D5D8D10D7 /* Pods-MVVMCleanCodeSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		50F6ED493E1DA3CBE1795B666ADA97E4 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h"; sourceTree = "<group>"; };
+		5E9C6FACDA04F280CE67B70F455F5DF4 /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60CE78D2C33F26A76BB25D4E0B24356C /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist"; sourceTree = "<group>"; };
+		6BAAA640700BBE74CE97786C9B87910F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		790FE33C20FA46809F0F8EE8A2B3F9E2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		79320D29937240A9F9DA427B96059CAB /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
-		7AE3F88FDBDC0C3E6D4F49C7999ADB6A /* Pods-MVVMCleanCodeSwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUI-dummy.m"; sourceTree = "<group>"; };
-		7E65BDE5923AA9BFC3D996BBF5C4928E /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUITests-dummy.m"; sourceTree = "<group>"; };
-		9D79ED16E057F0F607DB92ED8D3E6C9E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		77E3F187315C57C4E6B8F8BB8902A13B /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.staging.xcconfig"; sourceTree = "<group>"; };
+		84156BB8C5D3FDE9276BE2B3823812A2 /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUITests-dummy.m"; sourceTree = "<group>"; };
+		86E78A305FA3FEECBA0F2A6D3D61948E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap"; sourceTree = "<group>"; };
+		9B88FD7BF693EB6311B3B036BAE71FC6 /* Pods-MVVMCleanCodeSwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-Info.plist"; sourceTree = "<group>"; };
+		9D12F600CA7CAF4C740B18B2CD7CB682 /* Pods-MVVMCleanCodeSwiftUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUITests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E2ACD7B21CF0BDDBE0218FBFE098E44 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9EB9731C0A422D09F7398ACA4811E94B /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig"; sourceTree = "<group>"; };
-		A5139B949CFA5CD3002ADEC848BC4A6E /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A94F8A339BCCD5C2F09E4F518610D9D7 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap"; sourceTree = "<group>"; };
-		AD1EA65D9B1F32685B3B9B4A4029F23F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h"; sourceTree = "<group>"; };
-		BCDD4C5214B94D32A665F9D7DF3CAAD1 /* Pods-MVVMCleanCodeSwiftUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-Info.plist"; sourceTree = "<group>"; };
+		A4E62F3D1A5AD641B8795C42CD740A56 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist"; sourceTree = "<group>"; };
+		AB01A8EF14801C0ACA7F93C6016A4BF9 /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BA2E8B8801D73ADA42BA38910B76CC30 /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		BD0474DC748AA9135F955458B04D2D3C /* Pods-MVVMCleanCodeSwiftUI */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MVVMCleanCodeSwiftUI"; path = Pods_MVVMCleanCodeSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6CAFA67B329F0D0AAEC344B8DA1E926 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUI-umbrella.h"; sourceTree = "<group>"; };
-		D0C555809220187517A9746C5B2F9832 /* Pods-MVVMCleanCodeSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUI.modulemap"; sourceTree = "<group>"; };
-		D40B938A7B77A90D3BEFBA1C98C74FAF /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI.production.xcconfig"; sourceTree = "<group>"; };
-		E9947A94D81210EC5DDAB0B7B48431CE /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F41EA97B13A7CE0221C119CC55774FD1 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.production.xcconfig"; sourceTree = "<group>"; };
-		F44D80FD019AB7B2D14EFB8626FBD82E /* Pods-MVVMCleanCodeSwiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUITests.modulemap"; sourceTree = "<group>"; };
+		D47FDA8113BEED23D0F9D19D614B6B21 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		E5D5E8001DA5565A734FE227989F1DE5 /* Pods-MVVMCleanCodeSwiftUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MVVMCleanCodeSwiftUI-dummy.m"; sourceTree = "<group>"; };
+		EC714715FA773533110C2AB0EDB9B0A3 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F13B4F9C9F44C627A8321E89B5226B3A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F350BA56CB17C54BFA76DC85BC4031D5 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FCB91DD07784A2095175EB0B4C9133E0 /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MVVMCleanCodeSwiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		FFF3936769C551330AFA605758F1143B /* Pods-MVVMCleanCodeSwiftUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MVVMCleanCodeSwiftUI.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,37 +94,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1273F2FC3DEAD84210EE475D78B0BD75 /* Pods-MVVMCleanCodeSwiftUI */ = {
+		1AAD913D9855F951CDD7CD671BC9F6A4 /* Pods-MVVMCleanCodeSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D0C555809220187517A9746C5B2F9832 /* Pods-MVVMCleanCodeSwiftUI.modulemap */,
-				A5139B949CFA5CD3002ADEC848BC4A6E /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown */,
-				3C00BE31E70A489D98BD45AB1F1B55B8 /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist */,
-				7AE3F88FDBDC0C3E6D4F49C7999ADB6A /* Pods-MVVMCleanCodeSwiftUI-dummy.m */,
-				BCDD4C5214B94D32A665F9D7DF3CAAD1 /* Pods-MVVMCleanCodeSwiftUI-Info.plist */,
-				C6CAFA67B329F0D0AAEC344B8DA1E926 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */,
-				58FB2A655F85E75CD9C7B8E40F77F480 /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */,
-				D40B938A7B77A90D3BEFBA1C98C74FAF /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */,
-				79320D29937240A9F9DA427B96059CAB /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */,
-				13A6B441BF65CEC6F0DE25CC9054B160 /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */,
+				4F5061F1A17C5D925635748D5D8D10D7 /* Pods-MVVMCleanCodeSwiftUITests.modulemap */,
+				5E9C6FACDA04F280CE67B70F455F5DF4 /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown */,
+				AB01A8EF14801C0ACA7F93C6016A4BF9 /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist */,
+				84156BB8C5D3FDE9276BE2B3823812A2 /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */,
+				9D12F600CA7CAF4C740B18B2CD7CB682 /* Pods-MVVMCleanCodeSwiftUITests-Info.plist */,
+				FCB91DD07784A2095175EB0B4C9133E0 /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */,
+				F350BA56CB17C54BFA76DC85BC4031D5 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */,
+				07AC4385B51132CDD297852E47474643 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */,
+				EC714715FA773533110C2AB0EDB9B0A3 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */,
+				BA2E8B8801D73ADA42BA38910B76CC30 /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */,
 			);
-			name = "Pods-MVVMCleanCodeSwiftUI";
-			path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI";
+			name = "Pods-MVVMCleanCodeSwiftUITests";
+			path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests";
 			sourceTree = "<group>";
 		};
-		15530C99D5F20B029CFAD38FEF2CDE8E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests */ = {
+		3CAEF231FE420D9F6E4BE282E6731C86 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A94F8A339BCCD5C2F09E4F518610D9D7 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap */,
-				790FE33C20FA46809F0F8EE8A2B3F9E2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown */,
-				5BE5F66885D3879AFBB0144B834ECF1F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist */,
-				621904C41BE91C5EF93999A5394B9ACC /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */,
-				701E0CE2546A0786FF2DAE72C0183E36 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist */,
-				AD1EA65D9B1F32685B3B9B4A4029F23F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */,
-				9D79ED16E057F0F607DB92ED8D3E6C9E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */,
-				9EB9731C0A422D09F7398ACA4811E94B /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */,
-				9E2ACD7B21CF0BDDBE0218FBFE098E44 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */,
-				2EB7774EA868B3698961F6D8E82257AA /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */,
+				86E78A305FA3FEECBA0F2A6D3D61948E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.modulemap */,
+				1483D8040E51A9789ED4C73C7F85E128 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.markdown */,
+				6BAAA640700BBE74CE97786C9B87910F /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-acknowledgements.plist */,
+				35B30409F53022C287DD4B3A3E369894 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-dummy.m */,
+				A4E62F3D1A5AD641B8795C42CD740A56 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-Info.plist */,
+				50F6ED493E1DA3CBE1795B666ADA97E4 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h */,
+				20E5CEC812B821CB89B065B678DDFD6A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */,
+				1CAE4D14A58D65A31517906142B1E344 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */,
+				F13B4F9C9F44C627A8321E89B5226B3A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */,
+				D47FDA8113BEED23D0F9D19D614B6B21 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */,
 			);
 			name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests";
 			path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests";
@@ -133,9 +133,9 @@
 		49B3295198E6EF280B7FB9D44900FD87 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				1273F2FC3DEAD84210EE475D78B0BD75 /* Pods-MVVMCleanCodeSwiftUI */,
-				15530C99D5F20B029CFAD38FEF2CDE8E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests */,
-				D3596A829785CAABF61AFB4BE94477E0 /* Pods-MVVMCleanCodeSwiftUITests */,
+				B00794465368BD52E2867BCFBE9CC21A /* Pods-MVVMCleanCodeSwiftUI */,
+				3CAEF231FE420D9F6E4BE282E6731C86 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests */,
+				1AAD913D9855F951CDD7CD671BC9F6A4 /* Pods-MVVMCleanCodeSwiftUITests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -158,6 +158,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B00794465368BD52E2867BCFBE9CC21A /* Pods-MVVMCleanCodeSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				FFF3936769C551330AFA605758F1143B /* Pods-MVVMCleanCodeSwiftUI.modulemap */,
+				2E985B8AD9FFEBD7734B8D2E421DCD44 /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.markdown */,
+				60CE78D2C33F26A76BB25D4E0B24356C /* Pods-MVVMCleanCodeSwiftUI-acknowledgements.plist */,
+				E5D5E8001DA5565A734FE227989F1DE5 /* Pods-MVVMCleanCodeSwiftUI-dummy.m */,
+				9B88FD7BF693EB6311B3B036BAE71FC6 /* Pods-MVVMCleanCodeSwiftUI-Info.plist */,
+				2A6E130981FE5C853FA30B12514C03A8 /* Pods-MVVMCleanCodeSwiftUI-umbrella.h */,
+				3A8DE6C2E9F9C62CB787BFC93D530CBA /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */,
+				0E89A1E46A6AA9FAB8B87F1D8624DD06 /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */,
+				3DAA27C9929DC212FBC331F08A3C8950 /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */,
+				77E3F187315C57C4E6B8F8BB8902A13B /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */,
+			);
+			name = "Pods-MVVMCleanCodeSwiftUI";
+			path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -174,24 +192,6 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D3596A829785CAABF61AFB4BE94477E0 /* Pods-MVVMCleanCodeSwiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F44D80FD019AB7B2D14EFB8626FBD82E /* Pods-MVVMCleanCodeSwiftUITests.modulemap */,
-				E9947A94D81210EC5DDAB0B7B48431CE /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.markdown */,
-				052B368A7AF7B5491513E741725B728B /* Pods-MVVMCleanCodeSwiftUITests-acknowledgements.plist */,
-				7E65BDE5923AA9BFC3D996BBF5C4928E /* Pods-MVVMCleanCodeSwiftUITests-dummy.m */,
-				049CFE1613EFCD328EDFEADCED7D9EA2 /* Pods-MVVMCleanCodeSwiftUITests-Info.plist */,
-				64A3DFF36EBBB30AA02CAEE1FACFAADE /* Pods-MVVMCleanCodeSwiftUITests-umbrella.h */,
-				6C262BA403DDABA75A56A2EB68CDB1D9 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */,
-				F41EA97B13A7CE0221C119CC55774FD1 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */,
-				1F46497C6992E0E15CA348C8935EFAA4 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */,
-				59245C4260C84561A7C8D4028091D13B /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */,
-			);
-			name = "Pods-MVVMCleanCodeSwiftUITests";
-			path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -433,7 +433,7 @@
 		};
 		3B745DB26F0E05F7B5C3882EE1197B06 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79320D29937240A9F9DA427B96059CAB /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */;
+			baseConfigurationReference = 3DAA27C9929DC212FBC331F08A3C8950 /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -471,7 +471,7 @@
 		};
 		48DD50FD53B525402274736D29601766 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E2ACD7B21CF0BDDBE0218FBFE098E44 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */;
+			baseConfigurationReference = F13B4F9C9F44C627A8321E89B5226B3A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -575,7 +575,7 @@
 		};
 		71318895B9CC137DEF71DAA6506ECB4B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C262BA403DDABA75A56A2EB68CDB1D9 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */;
+			baseConfigurationReference = F350BA56CB17C54BFA76DC85BC4031D5 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -612,7 +612,7 @@
 		};
 		74541537EEE9FBCB201175F80E75CFB5 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 59245C4260C84561A7C8D4028091D13B /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */;
+			baseConfigurationReference = BA2E8B8801D73ADA42BA38910B76CC30 /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -712,7 +712,7 @@
 		};
 		8F0932127325756FB4905F16E6481269 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2EB7774EA868B3698961F6D8E82257AA /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */;
+			baseConfigurationReference = D47FDA8113BEED23D0F9D19D614B6B21 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -750,7 +750,7 @@
 		};
 		A1EFFD425730C36ACDD1C2350E0C021F /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9EB9731C0A422D09F7398ACA4811E94B /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */;
+			baseConfigurationReference = 1CAE4D14A58D65A31517906142B1E344 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -788,7 +788,7 @@
 		};
 		B3BA82E947A9F78C1CE714BDEF677E10 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58FB2A655F85E75CD9C7B8E40F77F480 /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */;
+			baseConfigurationReference = 3A8DE6C2E9F9C62CB787BFC93D530CBA /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -825,7 +825,7 @@
 		};
 		B523EB8DE2DFD60142949F92ED63A39A /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 13A6B441BF65CEC6F0DE25CC9054B160 /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */;
+			baseConfigurationReference = 77E3F187315C57C4E6B8F8BB8902A13B /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -863,7 +863,7 @@
 		};
 		C43064D7922B2B85B79032ECC94F4986 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D40B938A7B77A90D3BEFBA1C98C74FAF /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */;
+			baseConfigurationReference = 0E89A1E46A6AA9FAB8B87F1D8624DD06 /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -963,7 +963,7 @@
 		};
 		DD5B7F12B107E0719C3852D25E764A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D79ED16E057F0F607DB92ED8D3E6C9E /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */;
+			baseConfigurationReference = 20E5CEC812B821CB89B065B678DDFD6A /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1000,7 +1000,7 @@
 		};
 		DFBE08071CE77C2A7418D1F68E92B5F9 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F41EA97B13A7CE0221C119CC55774FD1 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */;
+			baseConfigurationReference = 07AC4385B51132CDD297852E47474643 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1038,7 +1038,7 @@
 		};
 		F3A7DD98B365CD5BE0BEDA1BBE6EC65B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F46497C6992E0E15CA348C8935EFAA4 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */;
+			baseConfigurationReference = EC714715FA773533110C2AB0EDB9B0A3 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;

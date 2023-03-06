@@ -897,7 +897,7 @@
 			};
 			name = Staging;
 		};
-		2D50E04B29B5AA880072A7D3 /* Production */ = {
+		2D50E05729B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -930,11 +930,17 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -942,20 +948,20 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VALIDATE_PRODUCT = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Production;
 		};
-		2D50E04C29B5AA880072A7D3 /* Production */ = {
+		2D50E05829B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2D50E03E29B5AA610072A7D3 /* ProductionConfig.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDevelopment;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -981,7 +987,7 @@
 			};
 			name = Production;
 		};
-		2D50E04D29B5AA880072A7D3 /* Production */ = {
+		2D50E05929B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C59404713A03EFB97A118339 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */;
 			buildSettings = {
@@ -1002,7 +1008,7 @@
 			};
 			name = Production;
 		};
-		2D50E04E29B5AA880072A7D3 /* Production */ = {
+		2D50E05A29B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F1FD82D4B14973309633B53D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */;
 			buildSettings = {
@@ -1282,9 +1288,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D81045129B5027400F22C48 /* Debug */,
+				2D50E05729B5D04A0072A7D3 /* Production */,
 				2D50E04729B5AA840072A7D3 /* Staging */,
 				2D81045229B5027400F22C48 /* Release */,
-				2D50E04B29B5AA880072A7D3 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1293,9 +1299,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D81045429B5027400F22C48 /* Debug */,
+				2D50E05829B5D04A0072A7D3 /* Production */,
 				2D50E04829B5AA840072A7D3 /* Staging */,
 				2D81045529B5027400F22C48 /* Release */,
-				2D50E04C29B5AA880072A7D3 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1304,9 +1310,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D81045729B5027400F22C48 /* Debug */,
+				2D50E05929B5D04A0072A7D3 /* Production */,
 				2D50E04929B5AA840072A7D3 /* Staging */,
 				2D81045829B5027400F22C48 /* Release */,
-				2D50E04D29B5AA880072A7D3 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1315,9 +1321,9 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D81045A29B5027400F22C48 /* Debug */,
+				2D50E05A29B5D04A0072A7D3 /* Production */,
 				2D50E04A29B5AA840072A7D3 /* Staging */,
 				2D81045B29B5027400F22C48 /* Release */,
-				2D50E04E29B5AA880072A7D3 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
