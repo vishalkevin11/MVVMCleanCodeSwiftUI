@@ -12,7 +12,6 @@ protocol BaseAPIEndpoint {
     var path: String { get }
     var headers: [String: Any]? { get }
     var body: [String: Any]? { get }
-    //    fileprivate var path: String
     var queryParameters: [URLQueryItem]? { get }
 }
 
