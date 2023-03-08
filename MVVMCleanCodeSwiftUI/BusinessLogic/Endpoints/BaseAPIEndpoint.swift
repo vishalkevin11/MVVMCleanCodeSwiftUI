@@ -9,7 +9,6 @@ import Foundation
 
 protocol BaseAPIEndpoint {
     var httpMethod: HttpMethod { get }
-    //  var baseURLString: String { get }
     var path: String { get }
     var headers: [String: Any]? { get }
     var body: [String: Any]? { get }
