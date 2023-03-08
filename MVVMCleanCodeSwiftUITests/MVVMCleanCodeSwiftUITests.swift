@@ -26,6 +26,11 @@ final class MVVMCleanCodeSwiftUITests: XCTestCase {
         // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
     }
 
+    func testAddExample() throws {
+        // This is an example of a functional test case.
+        XCTAssertEqual(2, 2)
+    }
+
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {

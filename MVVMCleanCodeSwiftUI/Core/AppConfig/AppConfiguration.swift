@@ -20,7 +20,7 @@ final class AppConfiguration {
         }
         environment = AppEnvironment(rawValue: currentConfiguration)!
         print("Current configuration: \(environment.rawValue)")
-        let bundleID = Bundle.main.bundleIdentifier
-        print("bundleID: \(bundleID)")
+     //   let bundleID = Bundle.main.bundleIdentifier
+      //  print("bundleID: \(bundleID)")
     }
 }

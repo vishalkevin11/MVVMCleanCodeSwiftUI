@@ -38,22 +38,12 @@
 		2D81043329B5027200F22C48 /* MVVMCleanCodeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81043229B5027200F22C48 /* MVVMCleanCodeSwiftUIApp.swift */; };
 		2D81043A29B5027300F22C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D81043929B5027300F22C48 /* Preview Assets.xcassets */; };
 		2D81044429B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81044329B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift */; };
-		2D81044E29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81044D29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.swift */; };
-		2D81045029B5027400F22C48 /* MVVMCleanCodeSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81044F29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITestsLaunchTests.swift */; };
 		455FB8FB3E20187FA69B193E /* Pods_MVVMCleanCodeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B165FB8454B2D20CDDE365C9 /* Pods_MVVMCleanCodeSwiftUITests.framework */; };
-		A9E11A825D127FE925F9A974 /* Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20DFEDD2F4A69C47C03B7A9B /* Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework */; };
 		D4FBB8F8619EC61747136D46 /* Pods_MVVMCleanCodeSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3E3711524AF0C8E6E2D2B5 /* Pods_MVVMCleanCodeSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2D81044029B5027400F22C48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2D81042729B5027200F22C48 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2D81042E29B5027200F22C48;
-			remoteInfo = MVVMCleanCodeSwiftUI;
-		};
-		2D81044A29B5027400F22C48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2D81042729B5027200F22C48 /* Project object */;
 			proxyType = 1;
@@ -103,9 +93,6 @@
 		2D81043929B5027300F22C48 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D81043F29B5027400F22C48 /* MVVMCleanCodeSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCleanCodeSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D81044329B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUITests.swift; sourceTree = "<group>"; };
-		2D81044929B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVMCleanCodeSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D81044D29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUIUITests.swift; sourceTree = "<group>"; };
-		2D81044F29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMCleanCodeSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		38A9605AF061B885AFB2578D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		4AC81BE534A13783A45B1841 /* Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		4DBCA6074C7C4057DB7BEC08 /* Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig"; sourceTree = "<group>"; };
@@ -151,14 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				455FB8FB3E20187FA69B193E /* Pods_MVVMCleanCodeSwiftUITests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D81044629B5027400F22C48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9E11A825D127FE925F9A974 /* Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,7 +358,6 @@
 			children = (
 				2D81043129B5027200F22C48 /* MVVMCleanCodeSwiftUI */,
 				2D81044229B5027400F22C48 /* MVVMCleanCodeSwiftUITests */,
-				2D81044C29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests */,
 				2D81043029B5027200F22C48 /* Products */,
 				42FEB99C5F0005875ED8F385 /* Pods */,
 				ABF85F07D9121C382C7ED4A3 /* Frameworks */,
@@ -391,7 +369,6 @@
 			children = (
 				2D81042F29B5027200F22C48 /* MVVMCleanCodeSwiftUI.app */,
 				2D81043F29B5027400F22C48 /* MVVMCleanCodeSwiftUITests.xctest */,
-				2D81044929B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -425,15 +402,6 @@
 				2D81044329B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift */,
 			);
 			path = MVVMCleanCodeSwiftUITests;
-			sourceTree = "<group>";
-		};
-		2D81044C29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2D81044D29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.swift */,
-				2D81044F29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITestsLaunchTests.swift */,
-			);
-			path = MVVMCleanCodeSwiftUIUITests;
 			sourceTree = "<group>";
 		};
 		42FEB99C5F0005875ED8F385 /* Pods */ = {
@@ -524,25 +492,6 @@
 			productReference = 2D81043F29B5027400F22C48 /* MVVMCleanCodeSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2D81044829B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2D81045929B5027400F22C48 /* Build configuration list for PBXNativeTarget "MVVMCleanCodeSwiftUIUITests" */;
-			buildPhases = (
-				48CF16B4BBDF3DF943AC3BDF /* [CP] Check Pods Manifest.lock */,
-				2D81044529B5027400F22C48 /* Sources */,
-				2D81044629B5027400F22C48 /* Frameworks */,
-				2D81044729B5027400F22C48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2D81044B29B5027400F22C48 /* PBXTargetDependency */,
-			);
-			name = MVVMCleanCodeSwiftUIUITests;
-			productName = MVVMCleanCodeSwiftUIUITests;
-			productReference = 2D81044929B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -557,10 +506,6 @@
 						CreatedOnToolsVersion = 14.2;
 					};
 					2D81043E29B5027400F22C48 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 2D81042E29B5027200F22C48;
-					};
-					2D81044829B5027400F22C48 = {
 						CreatedOnToolsVersion = 14.2;
 						TestTargetID = 2D81042E29B5027200F22C48;
 					};
@@ -581,7 +526,6 @@
 			targets = (
 				2D81042E29B5027200F22C48 /* MVVMCleanCodeSwiftUI */,
 				2D81043E29B5027400F22C48 /* MVVMCleanCodeSwiftUITests */,
-				2D81044829B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -600,13 +544,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2D81043D29B5027400F22C48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2D81044729B5027400F22C48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -654,28 +591,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-		48CF16B4BBDF3DF943AC3BDF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
 		};
 		49C5CB4AD079029C4516806D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -742,15 +657,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2D81044529B5027400F22C48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2D81044E29B5027400F22C48 /* MVVMCleanCodeSwiftUIUITests.swift in Sources */,
-				2D81045029B5027400F22C48 /* MVVMCleanCodeSwiftUIUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -758,11 +664,6 @@
 			isa = PBXTargetDependency;
 			target = 2D81042E29B5027200F22C48 /* MVVMCleanCodeSwiftUI */;
 			targetProxy = 2D81044029B5027400F22C48 /* PBXContainerItemProxy */;
-		};
-		2D81044B29B5027400F22C48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2D81042E29B5027200F22C48 /* MVVMCleanCodeSwiftUI */;
-			targetProxy = 2D81044A29B5027400F22C48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -878,25 +779,6 @@
 			};
 			name = Staging;
 		};
-		2D50E04A29B5AA840072A7D3 /* Staging */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7AC5F430674B1EFBDD06F6F2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQN7GH636G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVMCleanCodeSwiftUI;
-			};
-			name = Staging;
-		};
 		2D50E05729B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1005,25 +887,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MVVMCleanCodeSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MVVMCleanCodeSwiftUI";
-			};
-			name = Production;
-		};
-		2D50E05A29B5D04A0072A7D3 /* Production */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1FD82D4B14973309633B53D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQN7GH636G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVMCleanCodeSwiftUI;
 			};
 			name = Production;
 		};
@@ -1243,44 +1106,6 @@
 			};
 			name = Release;
 		};
-		2D81045A29B5027400F22C48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3EE8C9005A60F730C953CE2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQN7GH636G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVMCleanCodeSwiftUI;
-			};
-			name = Debug;
-		};
-		2D81045B29B5027400F22C48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7EA94DD5CAFCA6D5A6771FAC /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UQN7GH636G;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.MVVMCleanCodeSwiftUIUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MVVMCleanCodeSwiftUI;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1313,17 +1138,6 @@
 				2D50E05929B5D04A0072A7D3 /* Production */,
 				2D50E04929B5AA840072A7D3 /* Staging */,
 				2D81045829B5027400F22C48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2D81045929B5027400F22C48 /* Build configuration list for PBXNativeTarget "MVVMCleanCodeSwiftUIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2D81045A29B5027400F22C48 /* Debug */,
-				2D50E05A29B5D04A0072A7D3 /* Production */,
-				2D50E04A29B5AA840072A7D3 /* Staging */,
-				2D81045B29B5027400F22C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
