@@ -19,7 +19,7 @@ skip_docs
 # For more information on build settings , see:
 # https://docs.fastlane.tools/actions/build_app/#build_app
 app_name = "MVVMCleanCodeSwiftUI"
-scheme = "MVVMCleanCodeSwiftUI"
+scheme = "MVVMCleanCodeSwiftUIDevelopment"
 project = "MVVMCleanCodeSwiftUI.xcodeproj"
 workspace = "MVVMCleanCodeSwiftUI.xcworkspace"
 target = "MVVMCleanCodeSwiftUI"
