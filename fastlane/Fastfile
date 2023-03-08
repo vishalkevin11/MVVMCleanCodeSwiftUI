@@ -38,7 +38,7 @@ codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
 provisioning_profile = "NewsUncleAppStoreDistributionProfile"
 
 # Unit test case
-test_scheme = "MVVMCleanCodeSwiftUI"
+test_scheme = "MVVMCleanCodeSwiftUIDevelopment"
 
 # Upload/Distribution
 distribution = "testflight"
@@ -134,6 +134,7 @@ if workspace
 # build_app(args)
  
 ## Uncomment below lanes if you like to execute all with one command in the sequence defined below
+# MVVMCleanCodeSwiftUI_Test_v1 will be name of the result app
 # Say we run "fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1"
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
   tests
