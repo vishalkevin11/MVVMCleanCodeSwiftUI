@@ -42,7 +42,7 @@ jobs:
           restore-keys: ${{ runner.os }}-deps-v1-
 
       - name: Run tests, lint, build and upload to directory
-        run: bundle exec fastlane lint
+        run: bundle exec fastlane build
 
 
         
