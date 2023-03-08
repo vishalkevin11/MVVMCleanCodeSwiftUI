@@ -38,7 +38,7 @@ codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
 provisioning_profile = "NewsUncleAppStoreDistributionProfile"
 
 # Unit test case
-test_scheme = "MVVMCleanCodeSwiftUIDevelopment"
+test_scheme = "MVVMCleanCodeSwiftUITests"
 
 # Upload/Distribution
 distribution = "testflight"
