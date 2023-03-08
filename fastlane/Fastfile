@@ -78,7 +78,7 @@ lane :tests do
             fail_build: false,
             scheme: test_scheme,
             code_coverage: true,
-            device: "iPhone 11",
+            device: "iPhone 14",
             output_types: "html,junit",
             output_directory: "reports/")
 end
