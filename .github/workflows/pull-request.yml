@@ -31,8 +31,15 @@ jobs:
       - name: Install gems
         run: bundle install
 
-      - name: CocoaPods dependencies
+      - name: Pod install
+        working-directory: ./MVVMCleanCodeSwiftUI
         run: bundle exec pod install
+      - name: Build and test
+        working-directory: ./MVVMCleanCodeSwiftUI
+        run: bundle exec fastlane tests
+      - name: Swiftlint
+        working-directory: ./MVVMCleanCodeSwiftUI
+        run: bundle exec fastlane lint
 
       # - name: Swift Packages Cache
       #   uses: actions/cache@v2
