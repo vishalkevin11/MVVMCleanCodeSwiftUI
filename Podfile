@@ -8,6 +8,6 @@ target 'MVVMCleanCodeSwiftUI' do
   # Pods for MVVMCleanCodeSwiftUI
 
 #	pod 'AppCenter'
-
+    pod 'SwiftLint'
 
 end
