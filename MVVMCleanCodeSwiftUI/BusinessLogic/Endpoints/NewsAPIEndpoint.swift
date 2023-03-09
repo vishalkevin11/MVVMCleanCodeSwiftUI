@@ -13,6 +13,7 @@ import Foundation
 //    fileprivate var queryParameters: [URLQueryItem] = []
 // }
 
+// Alternative
 // extension BaseAPIEndpoint {
 //
 //    var url: URL {
