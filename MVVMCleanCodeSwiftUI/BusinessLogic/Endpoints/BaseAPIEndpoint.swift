@@ -9,11 +9,9 @@ import Foundation
 
 protocol BaseAPIEndpoint {
     var httpMethod: HttpMethod { get }
-    //  var baseURLString: String { get }
     var path: String { get }
     var headers: [String: Any]? { get }
     var body: [String: Any]? { get }
-    //    fileprivate var path: String
     var queryParameters: [URLQueryItem]? { get }
 }
 
@@ -57,8 +55,6 @@ extension BaseAPIEndpoint {
         components.host = host
         components.path = basePath + path
         components.queryItems = queryParameters
-
-        print("Host is \(host)")
         
         guard let url = components.url else {
             preconditionFailure("Invalid Componenets \(components)")

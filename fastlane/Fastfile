@@ -19,14 +19,14 @@ skip_docs
 # For more information on build settings , see:
 # https://docs.fastlane.tools/actions/build_app/#build_app
 app_name = "MVVMCleanCodeSwiftUI"
-scheme = "MVVMCleanCodeSwiftUI"
+scheme = "MVVMCleanCodeSwiftUIStaging"
 project = "MVVMCleanCodeSwiftUI.xcodeproj"
 workspace = "MVVMCleanCodeSwiftUI.xcworkspace"
 target = "MVVMCleanCodeSwiftUI"
 bundle_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
 
 # The configuration to use when building the app. Defaults to 'Release'
-build_config = "Development"
+build_config = "Production"
 clean_build = "false"
 
 # Method used to export the archive. 
@@ -38,7 +38,7 @@ codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
 provisioning_profile = "NewsUncleAppStoreDistributionProfile"
 
 # Unit test case
-test_scheme = "MVVMCleanCodeSwiftUI"
+test_scheme = "MVVMCleanCodeSwiftUITests"
 
 # Upload/Distribution
 distribution = "testflight"
@@ -78,7 +78,7 @@ lane :tests do
             fail_build: false,
             scheme: test_scheme,
             code_coverage: true,
-            device: "iPhone 11",
+            device: "iPhone 14",
             output_types: "html,junit",
             output_directory: "reports/")
 end
@@ -134,12 +134,13 @@ if workspace
 # build_app(args)
  
 ## Uncomment below lanes if you like to execute all with one command in the sequence defined below
+# MVVMCleanCodeSwiftUI_Test_v1 will be name of the result app
 # Say we run "fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1"
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
   tests
   lint
   build_app(args)
-  upload
+  #upload
   end
 
 desc "This lane will upload build to the respective distribution opted for"
