@@ -140,7 +140,7 @@ if workspace
   tests
   lint
   build_app(args)
-  upload
+  #upload
   end
 
 desc "This lane will upload build to the respective distribution opted for"
