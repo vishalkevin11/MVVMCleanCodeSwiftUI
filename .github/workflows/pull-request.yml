@@ -22,7 +22,7 @@ jobs:
 
       - uses: ruby/setup-ruby@v1.143.0
         with:
-          ruby-version: '3.0'
+          ruby-version: "3.0"
           bundler-cache: true
 
       - name: Install Bundler
@@ -41,14 +41,11 @@ jobs:
           key: ${{ runner.os }}-deps-v1-${{ hashFiles('BILDsolid.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
           restore-keys: ${{ runner.os }}-deps-v1-
 
-#      - name: Run tests, lint, build and upload to directory
-#        run: bundle exec fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1
+      #      - name: Run tests, lint, build and upload to directory
+      #        run: bundle exec fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1
 
-     - name: Run tests
-       run: bundle exec fastlane tests
+      - name: Run tests
+        run: bundle exec fastlane tests
 
       - name: Run lint
         run: bundle exec fastlane lint
-
-
-        
