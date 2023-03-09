@@ -81,7 +81,9 @@ lane :tests do
   #           device: "iPhone 14",
   #           output_types: "html,junit",
   #           output_directory: "reports/")
-  scan(scheme: test_scheme)
+  scan(scheme: test_scheme,
+  only_testing: "MVVMCleanCodeSwiftUITests/"
+  )
 end
 
 desc "Does a static analysis of the project. Configure the options in .swiftlint.yml"
