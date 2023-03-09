@@ -448,7 +448,6 @@
 				2D81042B29B5027200F22C48 /* Sources */,
 				2D81042C29B5027200F22C48 /* Frameworks */,
 				2D81042D29B5027200F22C48 /* Resources */,
-				2D81045C29B5039B00F22C48 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -538,24 +537,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2D81045C29B5039B00F22C48 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "
-";
-		};
 		49C5CB4AD079029C4516806D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
