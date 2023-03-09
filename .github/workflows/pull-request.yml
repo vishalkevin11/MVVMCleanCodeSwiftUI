@@ -31,14 +31,8 @@ jobs:
       - name: Install gems
         run: bundle install
 
-      - uses: actions/cache@v2
-        with:
-          path: Pods
-          key: ${{ runner.os }}-pods-${{ hashFiles('**/Podfile.lock') }}
-          restore-keys: |
-          ${{ runner.os }}-pods-
-      - name: CocoaPod Install
-        run: pod install
+      - name: CocoaPods dependencies
+        run: bundle exec pod install
 
       # - name: Swift Packages Cache
       #   uses: actions/cache@v2
