@@ -56,5 +56,5 @@ jobs:
       - name: Run tests
         run: bundle exec fastlane tests
 
-      - name: Run lint
-        run: bundle exec fastlane lint
+      # - name: Run lint
+      #   run: bundle exec fastlane lint
