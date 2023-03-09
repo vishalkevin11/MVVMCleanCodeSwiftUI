@@ -42,7 +42,7 @@ jobs:
           restore-keys: ${{ runner.os }}-deps-v1-
 
       - name: Run tests, lint, build and upload to directory
-        run: bundle exec fastlane build
+        run: bundle exec fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1
 
 
         
