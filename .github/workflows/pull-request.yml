@@ -31,15 +31,25 @@ jobs:
       - name: Install gems
         run: bundle install
 
-      - name: Pod install
-        working-directory: ./MVVMCleanCodeSwiftUI
-        run: bundle exec pod install
-      - name: Build and test
-        working-directory: ./MVVMCleanCodeSwiftUI
-        run: bundle exec fastlane tests
-      - name: Swiftlint
-        working-directory: ./MVVMCleanCodeSwiftUI
-        run: bundle exec fastlane lint
+      - name: Install Dependencies
+        run: |
+          cd MVVMCleanCodeSwiftUI
+          pod install --repo-update
+        shell: bash
+      - uses: ty0x2333/cocoapods-action@master
+        with:
+          additional_build_params: -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2'
+          additional_lint_params: --private
+
+      # - name: Pod install
+      #   working-directory: ./MVVMCleanCodeSwiftUI
+      #   run: bundle exec pod install
+      # - name: Build and test
+      #   working-directory: ./MVVMCleanCodeSwiftUI
+      #   run: bundle exec fastlane tests
+      # - name: Swiftlint
+      #   working-directory: ./MVVMCleanCodeSwiftUI
+      #   run: bundle exec fastlane lint
 
       # - name: Swift Packages Cache
       #   uses: actions/cache@v2
@@ -54,8 +64,8 @@ jobs:
       #      - name: Run tests, lint, build and upload to directory
       #        run: bundle exec fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1
 
-      - name: Run tests
-        run: bundle exec fastlane tests
+      # - name: Run tests
+      #   run: bundle exec fastlane tests
 
       # - name: Run lint
       #   run: bundle exec fastlane lint
