@@ -8,7 +8,7 @@
       <BuildActionEntries>
          <BuildActionEntry
             buildForTesting = "YES"
-            buildForRunning = "YES"
+            buildForRunning = "NO"
             buildForProfiling = "NO"
             buildForArchiving = "NO"
             buildForAnalyzing = "NO">
@@ -17,6 +17,20 @@
                BlueprintIdentifier = "2D81043E29B5027400F22C48"
                BuildableName = "MVVMCleanCodeSwiftUITests.xctest"
                BlueprintName = "MVVMCleanCodeSwiftUITests"
+               ReferencedContainer = "container:MVVMCleanCodeSwiftUI.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "NO"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2D81042E29B5027200F22C48"
+               BuildableName = "MVVMCleanCodeSwiftUI.app"
+               BlueprintName = "MVVMCleanCodeSwiftUI"
                ReferencedContainer = "container:MVVMCleanCodeSwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,6 +65,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "2D81042E29B5027200F22C48"
+            BuildableName = "MVVMCleanCodeSwiftUI.app"
+            BlueprintName = "MVVMCleanCodeSwiftUI"
+            ReferencedContainer = "container:MVVMCleanCodeSwiftUI.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -58,15 +81,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "2D81043E29B5027400F22C48"
-            BuildableName = "MVVMCleanCodeSwiftUITests.xctest"
-            BlueprintName = "MVVMCleanCodeSwiftUITests"
-            ReferencedContainer = "container:MVVMCleanCodeSwiftUI.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
