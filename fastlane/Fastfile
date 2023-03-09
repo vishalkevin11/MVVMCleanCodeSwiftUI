@@ -26,7 +26,7 @@ target = "MVVMCleanCodeSwiftUI"
 bundle_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
 
 # The configuration to use when building the app. Defaults to 'Release'
-build_config = "Production"
+build_config = "Staging"
 clean_build = "false"
 
 # Method used to export the archive. 
@@ -66,7 +66,7 @@ output_build_name = ""
 desc "Runs all the Unit Tests"
 lane :tests do
   # Publish Mac Notification
-  notification(subtitle: "Lane Executing Test Cases", message: "Test Cases!")
+ # notification(subtitle: "Lane Executing Test Cases", message: "Test Cases!")
 # Check if reports folder exists
 # This step is optional - if you want to keep all reports like test cases, coverage, docs etc under a specific folder.
             sh(" if [ ! -d #{project_directory} ] 
