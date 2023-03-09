@@ -74,13 +74,14 @@ lane :tests do
                 mkdir #{project_directory}
             fi ")
 # Run tests
-  run_tests(clean: true,
-            fail_build: false,
-            scheme: test_scheme,
-            code_coverage: true,
-            device: "iPhone 14",
-            output_types: "html,junit",
-            output_directory: "reports/")
+  # run_tests(clean: true,
+  #           fail_build: false,
+  #           scheme: test_scheme,
+  #           code_coverage: true,
+  #           device: "iPhone 14",
+  #           output_types: "html,junit",
+  #           output_directory: "reports/")
+  scan(scheme: test_scheme)
 end
 
 desc "Does a static analysis of the project. Configure the options in .swiftlint.yml"
