@@ -43,11 +43,11 @@ jobs:
       # - name: Xcode Version
       #   run: /usr/bin/xcodebuild -version
 
-      # - name: Install Bundler
-      #   run: gem install bundler
+      - name: Install Bundler
+        run: gem install bundler
 
-      # - name: Install gems
-      #   run: bundle install
+      - name: Install gems
+        run: bundle install
 
       # - name: Install CocoaPods
       #   run: bundle exec pod install
