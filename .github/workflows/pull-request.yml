@@ -32,10 +32,10 @@ jobs:
         with:
           xcode-version: latest-stable
 
-      - uses: ruby/setup-ruby@v1.143.0
-        with:
-          ruby-version: "3.0"
-          bundler-cache: true
+      # - uses: ruby/setup-ruby@v1.143.0
+      #   with:
+      #     ruby-version: "3.0"
+      #     bundler-cache: true
 
       # - name: Install Bundler
       #   run: gem install bundler
