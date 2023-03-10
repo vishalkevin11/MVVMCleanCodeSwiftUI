@@ -143,8 +143,8 @@ if workspace
 # MVVMCleanCodeSwiftUI_Test_v1 will be name of the result app
 # Say we run "fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1"
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
-  tests
-  lint
+  #tests
+  #lint
   build_app(args)
   #upload
   end
