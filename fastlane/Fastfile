@@ -65,7 +65,11 @@ output_build_name = ""
 
 
 before_all do
-  xcversion(version: "~> 14.2.0") if is_ci # Selects the latest installed version from the 14.2.x set
+  #xcversion(version: "~> 14.2.0") if is_ci # Selects the latest installed version from the 14.2.x set
+  xcodes(
+    version: '14',
+    select_for_current_build_only: true,
+  )
 end
 
 desc "Runs all the Unit Tests"
