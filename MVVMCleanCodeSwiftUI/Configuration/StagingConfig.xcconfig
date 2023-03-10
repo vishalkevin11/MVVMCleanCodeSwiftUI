@@ -12,4 +12,4 @@
 FAKE_STORE_API_KEY = 63e680fbd40ebb998caea60f
 APP_NAME = StagingApp
 APP_ICON_NAME = AppIconStaging
-PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.stageapp
+PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.newsuncle
