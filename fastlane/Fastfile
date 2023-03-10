@@ -107,7 +107,7 @@ desc "This lane initiates the build process. Takes argument(options) as app_buil
  # Options passed by user
     puts options
 # xcode version
-    xcversion(version: "~> 14.2.0")
+ #   xcversion(version: "~> 14.2.0")
 # Ensure that the git status is clean and no megre head or un-commited code exists
  #   ensure_git_status_clean
 # Increment build number
