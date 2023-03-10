@@ -64,13 +64,13 @@ project_directory = ENV["PWD"] + "/reports/"
 output_build_name = ""
 
 
-before_all do
-  #xcversion(version: "~> 14.2.0") if is_ci # Selects the latest installed version from the 14.2.x set
-  xcodes(
-    version: '14',
-    select_for_current_build_only: true,
-  )
-end
+# before_all do
+#   #xcversion(version: "~> 14.2.0") if is_ci # Selects the latest installed version from the 14.2.x set
+#   xcodes(
+#     version: '14',
+#     select_for_current_build_only: true,
+#   )
+# end
 
 desc "Runs all the Unit Tests"
 lane :tests do
@@ -117,7 +117,7 @@ desc "This lane initiates the build process. Takes argument(options) as app_buil
     puts options
 # xcode version
  #   xcversion(version: "~> 14.2.0")
- #   xcode_select("/Applications/Xcode_14.2.app")
+    xcode_select("/Applications/Xcode-14.2.app")
 # Ensure that the git status is clean and no megre head or un-commited code exists
  #   ensure_git_status_clean
 # Increment build number
