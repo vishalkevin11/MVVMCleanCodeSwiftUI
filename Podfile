@@ -8,14 +8,6 @@ target 'MVVMCleanCodeSwiftUI' do
   # Pods for MVVMCleanCodeSwiftUI
 
 #	pod 'AppCenter'
-
-  target 'MVVMCleanCodeSwiftUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'MVVMCleanCodeSwiftUIUITests' do
-    # Pods for testing
-  end
+    pod 'SwiftLint'
 
 end

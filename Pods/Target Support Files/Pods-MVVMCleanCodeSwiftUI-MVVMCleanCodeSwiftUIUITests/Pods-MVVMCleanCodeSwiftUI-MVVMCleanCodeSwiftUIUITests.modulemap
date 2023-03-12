@@ -1,6 +1,0 @@
-framework module Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests {
-  umbrella header "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

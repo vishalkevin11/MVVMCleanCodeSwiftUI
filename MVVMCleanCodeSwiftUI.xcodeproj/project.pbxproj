@@ -38,8 +38,7 @@
 		2D81043329B5027200F22C48 /* MVVMCleanCodeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81043229B5027200F22C48 /* MVVMCleanCodeSwiftUIApp.swift */; };
 		2D81043A29B5027300F22C48 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D81043929B5027300F22C48 /* Preview Assets.xcassets */; };
 		2D81044429B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D81044329B5027400F22C48 /* MVVMCleanCodeSwiftUITests.swift */; };
-		455FB8FB3E20187FA69B193E /* Pods_MVVMCleanCodeSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B165FB8454B2D20CDDE365C9 /* Pods_MVVMCleanCodeSwiftUITests.framework */; };
-		D4FBB8F8619EC61747136D46 /* Pods_MVVMCleanCodeSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE3E3711524AF0C8E6E2D2B5 /* Pods_MVVMCleanCodeSwiftUI.framework */; };
+		BC8A5769B49F172B877B5242 /* Pods_MVVMCleanCodeSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B62DAFD0A7946C9A3E870DF4 /* Pods_MVVMCleanCodeSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +54,6 @@
 /* Begin PBXFileReference section */
 		119B8EDA29A78817A6DBECBF /* Pods-MVVMCleanCodeSwiftUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		174854144AE29FA44AEE5C27 /* Pods-MVVMCleanCodeSwiftUITests.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.releaseproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.releaseproduction.xcconfig"; sourceTree = "<group>"; };
-		20DFEDD2F4A69C47C03B7A9B /* Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2367F69923281454B5C93467 /* Pods-MVVMCleanCodeSwiftUITests.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.debugproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.debugproduction.xcconfig"; sourceTree = "<group>"; };
 		2D50DFEC29B5A71F0072A7D3 /* HttpMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
 		2D50DFED29B5A71F0072A7D3 /* HttpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
@@ -96,7 +94,6 @@
 		38A9605AF061B885AFB2578D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		4AC81BE534A13783A45B1841 /* Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		4DBCA6074C7C4057DB7BEC08 /* Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig"; sourceTree = "<group>"; };
-		54DED0AD8C10D7C5706F116D /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig"; sourceTree = "<group>"; };
 		6B8F6DEBB1A4D504B90F37D9 /* Pods-MVVMCleanCodeSwiftUI.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.releasestaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.releasestaging.xcconfig"; sourceTree = "<group>"; };
 		6E69BA48238A6069602646EC /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.production.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.production.xcconfig"; sourceTree = "<group>"; };
 		76EF14F6514C3B5A287323AF /* Pods-MVVMCleanCodeSwiftUI.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.releaseproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.releaseproduction.xcconfig"; sourceTree = "<group>"; };
@@ -109,19 +106,15 @@
 		A23200838130CFB9342C0550 /* Pods-MVVMCleanCodeSwiftUI.debugstaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.debugstaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debugstaging.xcconfig"; sourceTree = "<group>"; };
 		A3EE8C9005A60F730C953CE2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A7BCACB2BB942E146F166130 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasedevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasedevelopment.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasedevelopment.xcconfig"; sourceTree = "<group>"; };
-		AC7F56201342E0FFF0485F12 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B165FB8454B2D20CDDE365C9 /* Pods_MVVMCleanCodeSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCleanCodeSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2A653B044536BE1AEEC65DD /* Pods-MVVMCleanCodeSwiftUI.releasedevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.releasedevelopment.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.releasedevelopment.xcconfig"; sourceTree = "<group>"; };
+		B62DAFD0A7946C9A3E870DF4 /* Pods_MVVMCleanCodeSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCleanCodeSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D0329E18D237ED60E9D14E /* Pods-MVVMCleanCodeSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		BF28AB626422D2F2BB25C589 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releaseproduction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releaseproduction.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releaseproduction.xcconfig"; sourceTree = "<group>"; };
-		C59404713A03EFB97A118339 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.production.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.production.xcconfig"; sourceTree = "<group>"; };
 		CB5B7EF5C1337359B062C1A1 /* Pods-MVVMCleanCodeSwiftUI.debugdevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.debugdevelopment.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.debugdevelopment.xcconfig"; sourceTree = "<group>"; };
 		D743F17239DA3912AE0D955A /* Pods-MVVMCleanCodeSwiftUI.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI.staging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI/Pods-MVVMCleanCodeSwiftUI.staging.xcconfig"; sourceTree = "<group>"; };
-		D9DF7A7BB518721FBDFC9249 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2AB56B4F22E2E4F2C4BC699 /* Pods-MVVMCleanCodeSwiftUITests.debugdevelopment.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUITests.debugdevelopment.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUITests/Pods-MVVMCleanCodeSwiftUITests.debugdevelopment.xcconfig"; sourceTree = "<group>"; };
 		F1FD82D4B14973309633B53D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig"; sourceTree = "<group>"; };
 		F41251BA4C38CE609BA06ED1 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasestaging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasestaging.xcconfig"; path = "Target Support Files/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests/Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.releasestaging.xcconfig"; sourceTree = "<group>"; };
-		FE3E3711524AF0C8E6E2D2B5 /* Pods_MVVMCleanCodeSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVMCleanCodeSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,7 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4FBB8F8619EC61747136D46 /* Pods_MVVMCleanCodeSwiftUI.framework in Frameworks */,
+				BC8A5769B49F172B877B5242 /* Pods_MVVMCleanCodeSwiftUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +130,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				455FB8FB3E20187FA69B193E /* Pods_MVVMCleanCodeSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,8 +403,6 @@
 				86DC38F3CB11A07EE868B8F6 /* Pods-MVVMCleanCodeSwiftUI.release.xcconfig */,
 				A3EE8C9005A60F730C953CE2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.debug.xcconfig */,
 				7EA94DD5CAFCA6D5A6771FAC /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.release.xcconfig */,
-				D9DF7A7BB518721FBDFC9249 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */,
-				AC7F56201342E0FFF0485F12 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */,
 				CB5B7EF5C1337359B062C1A1 /* Pods-MVVMCleanCodeSwiftUI.debugdevelopment.xcconfig */,
 				A23200838130CFB9342C0550 /* Pods-MVVMCleanCodeSwiftUI.debugstaging.xcconfig */,
 				4DBCA6074C7C4057DB7BEC08 /* Pods-MVVMCleanCodeSwiftUI.debugproduction.xcconfig */,
@@ -435,8 +425,6 @@
 				6E69BA48238A6069602646EC /* Pods-MVVMCleanCodeSwiftUI.production.xcconfig */,
 				7AC5F430674B1EFBDD06F6F2 /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.staging.xcconfig */,
 				F1FD82D4B14973309633B53D /* Pods-MVVMCleanCodeSwiftUI-MVVMCleanCodeSwiftUIUITests.production.xcconfig */,
-				54DED0AD8C10D7C5706F116D /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */,
-				C59404713A03EFB97A118339 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -444,9 +432,7 @@
 		ABF85F07D9121C382C7ED4A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FE3E3711524AF0C8E6E2D2B5 /* Pods_MVVMCleanCodeSwiftUI.framework */,
-				20DFEDD2F4A69C47C03B7A9B /* Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests.framework */,
-				B165FB8454B2D20CDDE365C9 /* Pods_MVVMCleanCodeSwiftUITests.framework */,
+				B62DAFD0A7946C9A3E870DF4 /* Pods_MVVMCleanCodeSwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -462,7 +448,6 @@
 				2D81042B29B5027200F22C48 /* Sources */,
 				2D81042C29B5027200F22C48 /* Frameworks */,
 				2D81042D29B5027200F22C48 /* Resources */,
-				2D81045C29B5039B00F22C48 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -477,7 +462,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D81045629B5027400F22C48 /* Build configuration list for PBXNativeTarget "MVVMCleanCodeSwiftUITests" */;
 			buildPhases = (
-				2CC767EAD98ACD0564737137 /* [CP] Check Pods Manifest.lock */,
 				2D81043B29B5027400F22C48 /* Sources */,
 				2D81043C29B5027400F22C48 /* Frameworks */,
 				2D81043D29B5027400F22C48 /* Resources */,
@@ -553,45 +537,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CC767EAD98ACD0564737137 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MVVMCleanCodeSwiftUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D81045C29B5039B00F22C48 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
 		49C5CB4AD079029C4516806D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -734,9 +679,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kevin Vishal (UQN7GH636G)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kevin Vishal (UQN7GH636G)";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVMCleanCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UQN7GH636G;
@@ -753,9 +699,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tuffytiffany.newsuncle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = TuffyTiffanyDevelopment;
+				PROVISIONING_PROFILE_SPECIFIER = NewsUncleAppStoreDistributionProfile;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = NewsUncleAppStoreDistributionProfile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -764,7 +711,6 @@
 		};
 		2D50E04929B5AA840072A7D3 /* Staging */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54DED0AD8C10D7C5706F116D /* Pods-MVVMCleanCodeSwiftUITests.staging.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -851,7 +797,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVMCleanCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UQN7GH636G;
@@ -879,7 +825,6 @@
 		};
 		2D50E05929B5D04A0072A7D3 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C59404713A03EFB97A118339 /* Pods-MVVMCleanCodeSwiftUITests.production.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1020,7 +965,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVMCleanCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UQN7GH636G;
@@ -1039,7 +984,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = TuffyTiffanyDevelopment;
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = NewsUncleAppStoreDistributionProfile;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1054,7 +999,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MVVMCleanCodeSwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = UQN7GH636G;
@@ -1082,7 +1027,6 @@
 		};
 		2D81045729B5027400F22C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9DF7A7BB518721FBDFC9249 /* Pods-MVVMCleanCodeSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1103,7 +1047,6 @@
 		};
 		2D81045829B5027400F22C48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC7F56201342E0FFF0485F12 /* Pods-MVVMCleanCodeSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

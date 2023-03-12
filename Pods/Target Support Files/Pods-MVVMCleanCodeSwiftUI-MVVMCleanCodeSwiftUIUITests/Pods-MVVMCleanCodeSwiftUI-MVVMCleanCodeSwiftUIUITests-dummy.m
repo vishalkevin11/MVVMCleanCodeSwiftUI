@@ -1,5 +1,0 @@
-#import <Foundation/Foundation.h>
-@interface PodsDummy_Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests : NSObject
-@end
-@implementation PodsDummy_Pods_MVVMCleanCodeSwiftUI_MVVMCleanCodeSwiftUIUITests
-@end

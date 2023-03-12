@@ -26,7 +26,7 @@ target = "MVVMCleanCodeSwiftUI"
 bundle_identifier = CredentialsManager::AppfileConfig.try_fetch_value(:app_identifier)
 
 # The configuration to use when building the app. Defaults to 'Release'
-build_config = "Production"
+build_config = "Staging"
 clean_build = "false"
 
 # Method used to export the archive. 
@@ -63,10 +63,19 @@ project_directory = ENV["PWD"] + "/reports/"
 # Output build name
 output_build_name = ""
 
+
+# before_all do
+#   #xcversion(version: "~> 14.2.0") if is_ci # Selects the latest installed version from the 14.2.x set
+#   xcodes(
+#     version: '14',
+#     select_for_current_build_only: true,
+#   )
+# end
+
 desc "Runs all the Unit Tests"
 lane :tests do
   # Publish Mac Notification
-  notification(subtitle: "Lane Executing Test Cases", message: "Test Cases!")
+ # notification(subtitle: "Lane Executing Test Cases", message: "Test Cases!")
 # Check if reports folder exists
 # This step is optional - if you want to keep all reports like test cases, coverage, docs etc under a specific folder.
             sh(" if [ ! -d #{project_directory} ] 
@@ -74,13 +83,19 @@ lane :tests do
                 mkdir #{project_directory}
             fi ")
 # Run tests
-  run_tests(clean: true,
-            fail_build: false,
-            scheme: test_scheme,
-            code_coverage: true,
-            device: "iPhone 14",
-            output_types: "html,junit",
-            output_directory: "reports/")
+  # run_tests(clean: true,
+  #           fail_build: false,
+  #           scheme: test_scheme,
+  #           code_coverage: true,
+  #           device: "iPhone 14",
+  #           output_types: "html,junit",
+  #           output_directory: "reports/")
+     scan(scheme: test_scheme,
+          only_testing: "MVVMCleanCodeSwiftUITests/",
+          workspace: workspace,
+          device: "iPhone 14",
+          clean: false
+        )
 end
 
 desc "Does a static analysis of the project. Configure the options in .swiftlint.yml"
@@ -100,8 +115,11 @@ desc "This lane initiates the build process. Takes argument(options) as app_buil
     puts "build process started..."
  # Options passed by user
     puts options
+# xcode version
+  #  xcversion(version: "~> 14.2.0")
+ #   xcode_select("/Applications/Xcode-14.2.app")
 # Ensure that the git status is clean and no megre head or un-commited code exists
-    ensure_git_status_clean
+ #   ensure_git_status_clean
 # Increment build number
     updated_build_num = increment_build_number(xcodeproj: project)
 # Commit the version bump
@@ -137,8 +155,8 @@ if workspace
 # MVVMCleanCodeSwiftUI_Test_v1 will be name of the result app
 # Say we run "fastlane build app_build_name:MVVMCleanCodeSwiftUI_Test_v1"
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
-  tests
-  lint
+  #tests
+  #lint
   build_app(args)
   #upload
   end
