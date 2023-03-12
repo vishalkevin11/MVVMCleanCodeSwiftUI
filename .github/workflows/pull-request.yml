@@ -179,9 +179,9 @@ jobs:
       #     additional_build_params: -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.2'
       #     additional_lint_params: --private
 
-      - name: Pod install
-        working-directory: ./MVVMCleanCodeSwiftUI
-        run: bundle exec pod install
+      # - name: Pod install
+      #   working-directory: ./MVVMCleanCodeSwiftUI
+      #   run: bundle exec pod install
       #       # - name: Build and test
       #       #   working-directory: ./MVVMCleanCodeSwiftUI
       #       #   run: bundle exec fastlane tests
