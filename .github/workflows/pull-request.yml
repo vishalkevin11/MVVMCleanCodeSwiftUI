@@ -138,6 +138,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install pod dependencies
+        run: |
+          cd MVVMCleanCodeSwiftUI && pod install
+
       # - name: Install pod dependencies
       #   run: |
       #     cd MVVMCleanCodeSwiftUI && pod install
@@ -145,9 +149,9 @@ jobs:
       #       #   with:
       #       #     xcode-version: latest-stable
 
-      #       - uses: ruby/setup-ruby@v1.143.0
-      #         with:
-      #           ruby-version: "3.0"
+      - uses: ruby/setup-ruby@v1.143.0
+        with:
+          ruby-version: "3.0"
       #       #     bundler-cache: true
 
       #       # - name: Select Xcode
