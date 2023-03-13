@@ -31,7 +31,7 @@ clean_build = "false"
 
 # Method used to export the archive. 
 # Valid values are: app-store, ad-hoc, package, enterprise, development, developer-id
-export_method = "app-store"
+export_method = "ad-hoc,"
 
 # Code signing identities
 codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
