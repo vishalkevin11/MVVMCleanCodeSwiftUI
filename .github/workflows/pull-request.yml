@@ -220,7 +220,7 @@ jobs:
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: ./artifacts/world.txt
+          path: artifacts
       # - name: Run tests
       #   run: bundle exec fastlane tests
 
