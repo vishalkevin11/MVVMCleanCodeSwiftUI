@@ -212,22 +212,22 @@ jobs:
       #       UUID=`/usr/libexec/PlistBuddy -c 'Print :UUID' /dev/stdin <<< $(security cms -D -i ./$PROVISION)`
       #       cp "./$PROVISION" "$HOME/Library/MobileDevice/Provisioning Profiles/$UUID.mobileprovision"
       #     done
-          - uses: actions/checkout@v3
-          - run: mkdir -p ./downloads
+      - uses: actions/checkout@v3
+      - run: mkdir -p ./downloads
 
-          - name: step 2 - Add downloads to publish to the temp folder
-              run: |
-              cd downloads
-              echo 'alpha'    > alpha.html
-              echo 'bravo'    > bravo.html
-              echo 'charlie'  > charlie.html
-              cd ..
-        
-          - name: Step 3 - Use the Upload Artifact GitHub Action
-            uses: actions/upload-artifact@v3
-            with: 
-              name: assets-for-download
-              path: downloads
+      - name: step 2 - Add downloads to publish to the temp folder
+        run: |
+          cd downloads
+          echo 'alpha'    > alpha.html
+          echo 'bravo'    > bravo.html
+          echo 'charlie'  > charlie.html
+          cd ..
+
+      - name: Step 3 - Use the Upload Artifact GitHub Action
+        uses: actions/upload-artifact@v3
+        with:
+          name: assets-for-download
+          path: downloads
       # - name: Run tests
       #   run: bundle exec fastlane tests
 
