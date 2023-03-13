@@ -213,14 +213,14 @@ jobs:
             cp "./$PROVISION" "$HOME/Library/MobileDevice/Provisioning Profiles/$UUID.mobileprovision"
           done
       - uses: actions/checkout@v3
-      - run: mkdir -p path/to/artifact
+      - run: mkdir -p artifacts
 
-      - run: echo hello > path/to/artifact/world.txt
+      - run: echo hello > artifacts/world.txt
 
       - uses: actions/upload-artifact@v3
         with:
           name: my-artifact
-          path: path/to/artifact/world.txt
+          path: artifacts/world.txt
       # - name: Run tests
       #   run: bundle exec fastlane tests
 
