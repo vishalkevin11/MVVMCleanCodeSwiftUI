@@ -118,11 +118,11 @@ jobs:
       XC_WORKSPACE: ${{ 'MVVMCleanCodeSwiftUI.xcworkspace' }}
       XC_ARCHIVE_PATH: ${{ './MVVMCleanCodeSwiftUI.xcarchive' }}
       XC_EXPORT_PATH: ${{ './artifacts/' }}
-      XC_EXPORT_OPTIONS_FILE_PATH: ${{ './certs/ExportOptions.plist' }}
-      ENCRYPTED_CERTS_FILE_PATH: ${{ './certs/NewsuncleCertificates.p12.gpg' }}
-      DECRYPTED_CERTS_FILE_PATH: ${{ './certs/NewsuncleCertificates.p12' }}
-      ENCRYPTED_PROVISION_FILE_PATH: ${{ './certs/provisioning.tar.gz.gpg' }}
-      DECRYPTED_PROVISION_FILE_PATH: ${{ './certs/provisioning.tar.gz' }}
+      XC_EXPORT_OPTIONS_FILE_PATH: ${{ './certs/staging/ExportOptions.plist' }}
+      ENCRYPTED_CERTS_FILE_PATH: ${{ './certs/staging/NewsuncleCertificates.p12.gpg' }}
+      DECRYPTED_CERTS_FILE_PATH: ${{ './certs/staging/NewsuncleCertificates.p12' }}
+      ENCRYPTED_PROVISION_FILE_PATH: ${{ './certs/staging/provisioning.tar.gz.gpg' }}
+      DECRYPTED_PROVISION_FILE_PATH: ${{ './certs/staging/provisioning.tar.gz' }}
       CERTS_ENCRYPTION_PWD: ${{ secrets.CERTS_ENCRYPTION_PWD }}
       PROVISION_ENCRYPTION_PWD: ${{ secrets.PROVISION_ENCRYPTION_PWD }}
       CERTS_EXPORT_PWD: ${{ secrets.CERTS_EXPORT_PWD }}
