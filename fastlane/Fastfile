@@ -35,7 +35,7 @@ export_method = "app-store"
 
 # Code signing identities
 codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
-provisioning_profile = "NewsUncleAppStoreDistributionProfile"
+provisioning_profile = "NewsUncleAdhocDistribution"
 
 # Unit test case
 test_scheme = "MVVMCleanCodeSwiftUITests"
