@@ -482,7 +482,7 @@
 		2D81042729B5027200F22C48 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = YES;
+				BuildIndependentTargetsInParallel = NO;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
@@ -1086,7 +1086,7 @@
 				2D81045229B5027400F22C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Release;
 		};
 		2D81045329B5027400F22C48 /* Build configuration list for PBXNativeTarget "MVVMCleanCodeSwiftUI" */ = {
 			isa = XCConfigurationList;
@@ -1097,7 +1097,7 @@
 				2D81045529B5027400F22C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Release;
 		};
 		2D81045629B5027400F22C48 /* Build configuration list for PBXNativeTarget "MVVMCleanCodeSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -1108,7 +1108,7 @@
 				2D81045829B5027400F22C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Staging;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
