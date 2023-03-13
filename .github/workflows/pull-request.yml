@@ -219,7 +219,7 @@ jobs:
         run: bundle exec fastlane lint
       - name: Archive
         run: |
-          mkdir artifacts
+          mkdir -p artifacts
           /usr/bin/xcodebuild archive -workspace "$XC_WORKSPACE" -scheme "$XC_SCHEME" -configuration "$XC_CONFIGURATION" -archivePath "$XC_ARCHIVE_PATH" "OTHER_CODE_SIGN_FLAGS=--keychain '$KEYCHAIN'"
       - name: Export for App Store
         run: |
