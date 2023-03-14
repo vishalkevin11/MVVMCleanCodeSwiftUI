@@ -138,6 +138,22 @@ output_build_name = ""
 #     select_for_current_build_only: true,
 #   )
 # end
+desc "Get certificates"
+lane :certificates do
+  sync_code_signing(
+    type: "adhoc",
+    app_identifier: ['com.tuffytiffany.newsuncle'],
+    force_for_new_devices: true,
+    readonly: true
+  )
+
+  # You can repeate the sync_code_signing with other types of certificates such as appstore and adhoc
+  sync_code_signing(
+    type: "adhoc",
+    app_identifier: 'com.tuffytiffany.newsuncle',
+    readonly: true
+  )
+end
 
 desc "Runs all the Unit Tests"
 lane :tests do
@@ -224,6 +240,7 @@ if workspace
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
   #tests
   #lint
+  certificates
   build_app(args)
   #upload
   end

@@ -1,0 +1,14 @@
+git_url("https://vishalkevin11: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@github.com/vishalkevin11/MVVMCleanCodeKeys.git")
+
+storage_mode("git")
+
+type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
+git_branch "master"
+
+# app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])
+# username("user@fastlane.tools") # Your Apple Developer Portal username
+
+# For all available options run `fastlane match --help`
+# Remove the # in the beginning of the line to enable the other options
+
+# The docs are available on https://docs.fastlane.tools/actions/match
