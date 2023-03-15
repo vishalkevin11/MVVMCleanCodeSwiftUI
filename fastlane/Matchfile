@@ -6,7 +6,7 @@ type("adhoc") # The default type, can be: appstore, adhoc, enterprise or develop
 # git_branch("master")
 # clone_branch_directly(true)
 
-git_basic_authorization("Z2l0aHViX3BhdF8xMUFDRlZXSkkwcUg0UzBMbG5pTDdkX1p1am1xTVZzZFY5d2ZwUEpSalFrNGJMdVVZM2ZWYzB0QXBwcTJHYU5yNlg0WjdKTEFINXZlYnY0NUNN")
+git_private_key("Z2l0aHViX3BhdF8xMUFDRlZXSkkwcUg0UzBMbG5pTDdkX1p1am1xTVZzZFY5d2ZwUEpSalFrNGJMdVVZM2ZWYzB0QXBwcTJHYU5yNlg0WjdKTEFINXZlYnY0NUNN")
 # app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])
 # username("user@fastlane.tools") # Your Apple Developer Portal username
 
