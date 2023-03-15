@@ -3,7 +3,7 @@ git_url("https://vishalkevin11:github_pat_11ACFVWJI0qwFAwkzfFG9s_VuFlk2AY8bXoSLH
 storage_mode("git")
 
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
-git_branch("main")
+git_branch("master")
 # clone_branch_directly(true)
 git_basic_authorization("dmlzaGFsa2V2aW4xMTpnaXRodWJfcGF0XzExQUNGVldKSTBxd0ZBd2t6ZkZHOXNfVnVGbGsyQVk4YlhvU0xIYldmOERIVGJVTHV2NEZiblpJd2xVY1FqY0EwMjY3SEpDTURHSHN4dldFRk4=")
 # app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])
