@@ -7,6 +7,8 @@ team_id("UQN7GH636G") # Developer Portal Team ID
 # Override timeout to increase to custom value
 ENV["FASTLANE_XCODEBUILD_SETTINGS_TIMEOUT"] = "180"
 ENV["FASTLANE_XCODE_LIST_TIMEOUT"] = "180"
+ENV["MATCH_PASSWORD"] = "MTIzNDU2"
+ENV["MATCH_GIT_BEARER_AUTHORIZATION"] = "Z2hwX2hpUkp0NXFnNnV3bzdBWldqSnBvUHNuTDFjTWhHRzNUcXlwNw=="
 
 
 # For more information about the Appfile, see:
