@@ -1,3 +1,70 @@
+# # This file contains the fastlane.tools configuration
+# # You can find the documentation at https://docs.fastlane.tools
+# #
+# # For a list of all available actions, check out
+# #
+# #     https://docs.fastlane.tools/actions
+# #
+# # For a list of all available plugins, check out
+# #
+# #     https://docs.fastlane.tools/plugins/available-plugins
+# #
+
+# # Uncomment the line if you want fastlane to automatically update itself
+# # update_fastlane
+# default_platform(:ios)
+# skip_docs
+
+# # iOS build - Fill below configuration input as per your project need and replace dummy inputs with actual one.
+# # For more information on build settings , see:
+# # https://docs.fastlane.tools/actions/build_app/#build_app
+# workspace = "MVVMCleanCodeSwiftUI.xcworkspace"
+
+# # The configuration to use when building the app. Defaults to 'Release'
+# clean_build = "false"
+
+# # Method used to export the archive. 
+# # Valid values are: app-store, ad-hoc, package, enterprise, development, developer-id
+# export_method = "ad-hoc"
+
+# # Unit test case
+# test_scheme = "MVVMCleanCodeSwiftUITests"
+
+# # Project directory
+# project_directory = ENV["PWD"] + "/reports/"
+
+
+# desc "Runs all the Unit Tests"
+# lane :tests do
+#   # Publish Mac Notification
+#  # notification(subtitle: "Lane Executing Test Cases", message: "Test Cases!")
+# # Check if reports folder exists
+# # This step is optional - if you want to keep all reports like test cases, coverage, docs etc under a specific folder.
+#             sh(" if [ ! -d #{project_directory} ] 
+#             then
+#                 mkdir #{project_directory}
+#             fi ")
+# # Run tests
+#      scan(scheme: test_scheme,
+#           only_testing: "MVVMCleanCodeSwiftUITests/",
+#           workspace: workspace,
+#           device: "iPhone 14",
+#           clean: false
+#         )
+# end
+
+# desc "Does a static analysis of the project. Configure the options in .swiftlint.yml"
+# lane :lint do
+#   puts "Linting..."
+#   swiftlint(
+#     mode: :lint,
+#     output_file: "reports/swiftlint.xml",
+#     reporter: "checkstyle",
+#     config_file: ".swiftlint.yml",
+#     ignore_exit_status: true
+#   )
+# end
+
 # This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
 #
@@ -31,11 +98,11 @@ clean_build = "false"
 
 # Method used to export the archive. 
 # Valid values are: app-store, ad-hoc, package, enterprise, development, developer-id
-export_method = "app-store"
+export_method = "ad-hoc"
 
 # Code signing identities
 codesign_certificate = "iPhone Distribution: Kevin Vishal (UQN7GH636G)"
-provisioning_profile = "NewsUncleAppStoreDistributionProfile"
+provisioning_profile = "NewsUncleAdhocDistribution"
 
 # Unit test case
 test_scheme = "MVVMCleanCodeSwiftUITests"
@@ -71,6 +138,22 @@ output_build_name = ""
 #     select_for_current_build_only: true,
 #   )
 # end
+desc "Get certificates"
+lane :certificates do
+  sync_code_signing(
+    type: "adhoc",
+    app_identifier: ['com.tuffytiffany.newsuncle'],
+    force_for_new_devices: true,
+    readonly: true
+  )
+
+  # You can repeate the sync_code_signing with other types of certificates such as appstore and adhoc
+  sync_code_signing(
+    type: "adhoc",
+    app_identifier: 'com.tuffytiffany.newsuncle',
+    readonly: true
+  )
+end
 
 desc "Runs all the Unit Tests"
 lane :tests do
@@ -157,6 +240,7 @@ if workspace
 # Execution Sequence: Run Test->Linting->Code->Build->Upload/Publish
   #tests
   #lint
+  certificates
   build_app(args)
   #upload
   end
