@@ -1,11 +1,11 @@
-git_url("https://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@github.com/vishalkevin11/MVVMCleanCodeKeys.git")
+git_url("https://github.com/vishalkevin11/MVVMCleanCodeKeys.git")
 
 storage_mode("git")
 
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
 # git_branch("master")
 # clone_branch_directly(true)
-#git_basic_authorization("dmlzaGFsa2V2aW4xMTpnaXRodWJfcGF0XzExQUNGVldKSTBxd0ZBd2t6ZkZHOXNfVnVGbGsyQVk4YlhvU0xIYldmOERIVGJVTHV2NEZiblpJd2xVY1FqY0EwMjY3SEpDTURHSHN4dldFRk4=")
+git_basic_authorization("dmlzaGFsa2V2aW4xMTpnaXRodWJfcGF0XzExQUNGVldKSTBxSDRTMExsbmlMN2RfWnVqbXFNVnNkVjl3ZnBQSlJqUWs0Ykx1VVkzZlZjMHRBcHBxMkdhTnI2WDRaN0pMQUg1dmVidjQ1Q00=")
 # app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])
 # username("user@fastlane.tools") # Your Apple Developer Portal username
 
