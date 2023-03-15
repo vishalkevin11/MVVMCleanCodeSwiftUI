@@ -5,7 +5,7 @@ storage_mode("git")
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
 git_branch("main")
 # clone_branch_directly(true)
-git_bearer_authorization("dmlzaGFsa2V2aW4xMTpnaXRodWJfcGF0XzExQUNGVldKSTB4NE5XeUdvRmNVcnpfQm5zUTd1UUN5STZQaXFUc1dzR2VKMmdsdzRabFdLZk5ISFhIQ245dTFDNVA2QlJUUzdENlR5Z3lMQUc=")
+# git_bearer_authorization("dmlzaGFsa2V2aW4xMTpnaXRodWJfcGF0XzExQUNGVldKSTB4NE5XeUdvRmNVcnpfQm5zUTd1UUN5STZQaXFUc1dzR2VKMmdsdzRabFdLZk5ISFhIQ245dTFDNVA2QlJUUzdENlR5Z3lMQUc=")
 # app_identifier(["tools.fastlane.app", "tools.fastlane.app2"])
 # username("user@fastlane.tools") # Your Apple Developer Portal username
 
