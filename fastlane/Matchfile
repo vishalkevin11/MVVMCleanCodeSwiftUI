@@ -4,7 +4,7 @@ storage_mode("git")
 
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
 # git_branch("master")
-# git_full_name("vishalkevin11")
+git_full_name("vishalkevin11")
 # clone_branch_directly(true)
 
 # git_basic_authorization("dmlzaGFsa2V2aW4xMTpnaHBfaGlSSnQ1cWc2dXdvN0FaV2pKcG9Qc25MMWNNaEdHM1RxeXA3")
