@@ -17,7 +17,7 @@ jobs:
       - uses: actions/checkout@v3
         env:
           MATCH_GIT_BASIC_AUTHORIZATION: "dmlzaGFsa2V2aW4xMTpnaHBfaGlSSnQ1cWc2dXdvN0FaV2pKcG9Qc25MMWNNaEdHM1RxeXA3"
-          MATCH_PASSWORD: "MTIzNDU2"
+          MATCH_PASSWORD: "123456"
 
       - name: Set up Node.js 14
         uses: actions/setup-node@v3

@@ -3,7 +3,7 @@ git_url("https://dmlzaGFsa2V2aW4xMTpnaHBfaGlSSnQ1cWc2dXdvN0FaV2pKcG9Qc25MMWNNaEd
 storage_mode("git")
 
 type("adhoc") # The default type, can be: appstore, adhoc, enterprise or development
-git_branch("master")
+# git_branch("master")
 git_full_name("vishalkevin11")
 # clone_branch_directly(true)
 
