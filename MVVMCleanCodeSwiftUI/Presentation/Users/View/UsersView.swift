@@ -16,6 +16,7 @@ struct UsersView: View {
                     UsersRouter.showUserDetailsView(user: user)
                 } label: {
                     HStack {
+                        Text("User ID: \(user.id ?? "-")")
                         Text("\(user.firstName ?? "-")")
                         Text("\(user.lastName ?? "-")")
                     }
